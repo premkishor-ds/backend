@@ -41,7 +41,10 @@ OPENAI_CHAT_COMPLETIONS_MODEL = os.getenv(
     "OPENAI_CHAT_COMPLETIONS_MODEL",
     OPENAI_RESPONSES_MODEL,
 )
-OPENAI_EMBEDDING_MODEL = os.getenv("OPENAI_EMBEDDING_MODEL", "text-embedding-ada-002")
+OPENAI_EMBEDDING_MODEL = os.getenv("OPENAI_EMBEDDING_MODEL", "text-embedding-3-small")
+
+# Max items returned in `retrieved` (Sources panel + LLM context). Vector path uses this as diversify limit; SQL is sliced to this.
+MAX_RETRIEVED_SOURCES = int(os.getenv("SEARCH_RETRIEVED_MAX", "5"))
 
 # Initialize OpenAI client once
 client = OpenAI(api_key=OPENAI_API_KEY)
@@ -89,6 +92,74 @@ def call_openai_responses(prompt: str) -> str:
     except (KeyError, IndexError):
         return str(result)
 
+def _parse_metadata(meta):
+    """Normalize JSONB / str metadata to dict."""
+    if meta is None:
+        return {}
+    if isinstance(meta, dict):
+        return meta
+    if isinstance(meta, str):
+        try:
+            return json.loads(meta)
+        except Exception:
+            return {}
+    return {}
+
+
+def _source_file_from_metadata(meta) -> str:
+    d = _parse_metadata(meta)
+    sf = d.get("source_file")
+    return sf if isinstance(sf, str) else ""
+
+
+def diversify_vector_hits(rows, limit: int = 3):
+    """
+    Prefer diverse sources in retrieved context.
+
+    Pure top-k vector search often returns multiple rows from the same dataset
+    (e.g. FAQ) because Q&A text is semantically similar to many questions.
+    We take a larger candidate pool, then pick up to `limit` rows: first pass
+    prefers at most one row per `metadata.source_file`, second pass fills the rest
+    by nearest-neighbor order.
+    """
+    if not rows:
+        return []
+
+    picked = []
+    picked_keys = set()
+    used_sources = set()
+
+    def key_for(content, meta):
+        return (content[:200] if isinstance(content, str) else str(content), str(meta))
+
+    # Pass 1: one per source_file (preserving global distance order)
+    for content, meta in rows:
+        if len(picked) >= limit:
+            break
+        sf = _source_file_from_metadata(meta)
+        k = key_for(content, meta)
+        if k in picked_keys:
+            continue
+        if sf and sf in used_sources:
+            continue
+        picked.append({"content": content, "metadata": meta})
+        picked_keys.add(k)
+        if sf:
+            used_sources.add(sf)
+
+    # Pass 2: fill remaining slots in distance order
+    for content, meta in rows:
+        if len(picked) >= limit:
+            break
+        k = key_for(content, meta)
+        if k in picked_keys:
+            continue
+        picked.append({"content": content, "metadata": meta})
+        picked_keys.add(k)
+
+    return picked[:limit]
+
+
 def get_embedding(text):
     """
     Experimental embedding logic or fallback
@@ -125,18 +196,27 @@ async def search(query_data: SearchQuery):
                 cur.execute(generated_sql)
                 columns = [desc[0] for desc in cur.description]
                 retrieved_data = [dict(zip(columns, row)) for row in cur.fetchall()]
+                retrieved_data = retrieved_data[:MAX_RETRIEVED_SOURCES]
             except Exception as sql_err:
                 print(f"SQL Error: {sql_err}")
                 intent = "VECTOR"
 
         if intent == "VECTOR" or not retrieved_data:
             query_embedding = get_embedding(user_query)
-            cur.execute("""
-                SELECT content, metadata FROM documents
+            # Fetch more neighbors, then diversify so FAQ doesn't dominate every answer.
+            pool_limit = int(os.getenv("SEARCH_VECTOR_POOL", "40"))
+            final_limit = MAX_RETRIEVED_SOURCES
+            cur.execute(
+                """
+                SELECT content, metadata
+                FROM documents
                 ORDER BY embedding <=> %s::vector
-                LIMIT 3;
-            """, (query_embedding,))
-            retrieved_data = [{"content": row[0], "metadata": row[1]} for row in cur.fetchall()]
+                LIMIT %s;
+                """,
+                (query_embedding, pool_limit),
+            )
+            rows = cur.fetchall()
+            retrieved_data = diversify_vector_hits(rows, limit=final_limit)
 
         cur.close()
         conn.close()
@@ -150,9 +230,11 @@ async def search(query_data: SearchQuery):
             }
 
         # Step D: Final Response Generation
+        # psycopg2 may return DECIMAL values for numeric columns (e.g. products.price).
+        # Convert them to JSON-safe values so we can build the final prompt.
         final_prompt = FINAL_ANSWER_PROMPT.format(
-            retrieved_data=json.dumps(retrieved_data, indent=2),
-            user_query=user_query
+            retrieved_data=json.dumps(retrieved_data, indent=2, default=str),
+            user_query=user_query,
         )
         answer = call_openai_responses(final_prompt)
 

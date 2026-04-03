@@ -32,6 +32,7 @@ Rules:
 1. Return ONLY the SQL query. No code blocks, no explanation.
 2. Use ILIKE for partial text matching.
 3. Keep it simple and safe.
+4. Add LIMIT 5 at the end (unless the user explicitly asks for a different number of rows).
 
 User Question: {user_query}
 SQL Query:

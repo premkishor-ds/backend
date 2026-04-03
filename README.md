@@ -32,9 +32,23 @@ copy .env.example .env
 | `DB_HOST`, `DB_PORT`, `DB_NAME`, `DB_USER`, `DB_PASS` | PostgreSQL connection |
 | `OPENAI_RESPONSES_MODEL` | Model for `/v1/responses` calls (default: `gpt-4.1-mini`) |
 | `OPENAI_CHAT_COMPLETIONS_MODEL` | Model for chat fallback (defaults to `OPENAI_RESPONSES_MODEL`) |
-| `OPENAI_EMBEDDING_MODEL` | Embedding model (default: `text-embedding-ada-002`) |
+| `OPENAI_EMBEDDING_MODEL` | Embedding model (default: `text-embedding-3-small`, matches `vector(1536)` in `init_db.py`) |
 
 The app loads `backend/.env` next to `main.py` and overrides any existing process environment for those keys.
+
+## Ingest site data (required for vector search)
+
+JSON exports must be loaded into the `documents` table (with embeddings). The ingest script processes these files in order:
+
+`aboutus.json`, `business.json`, `faq.json`, `forecourt.json`, `instore.json`, `location.json`, `product.json`
+
+```bash
+cd backend\scripts
+python -u ingest_data.py --fresh
+```
+
+- `--fresh` truncates `documents` and `products` first (use after changing ingest logic or to avoid duplicates).
+- `product.json` rows also populate the `products` table (for SQL-style questions).
 
 ## Run
 
