@@ -1,0 +1,349 @@
+[
+  {
+    "data": {
+      "id": "search-maxol-deli",
+      "type": "ce_searchInStore",
+      "slug": "search-maxol-deli",
+      "name": "Maxol Deli",
+      "c_aboutVertical": {
+        "image": {
+          "url": "https://a.mktgcdn.com/p/XfZBs4_2jPSsazmBLqfXWe0JgQrPFI7-gzmPUeF5hOY/97x98.png",
+          "width": 97,
+          "height": 98,
+          "thumbnails": [
+            {
+              "url": "https://a.mktgcdn.com/p/XfZBs4_2jPSsazmBLqfXWe0JgQrPFI7-gzmPUeF5hOY/97x98.png",
+              "width": 97,
+              "height": 98
+            }
+          ]
+        },
+        "heading": "Maxol Deli",
+        "description": "At Maxol, we\u2019re proud to bring you the most \u2018deli-icous\u2019 food daily! We choose only the finest ingredients and the products with the best quality and flavour so you can get a delicious meal every time.",
+        "button": {
+          "label": "Learn More",
+          "linkType": "URL",
+          "link": "https://www.maxol.ie/maxol-deli"
+        }
+      },
+      "uid": "1024935407"
+    },
+    "highlightedFields": {}
+  },
+  {
+    "data": {
+      "id": "search-rosa-coffee",
+      "type": "ce_searchInStore",
+      "slug": "search-rosa-coffee",
+      "name": "ROSA Coffee",
+      "c_aboutVertical": {
+        "image": {
+          "url": "https://a.mktgcdn.com/p/9KVgSXlaZ0zGghPIpumP33SKOPO1rlEwPHXnxbRIT3Y/65x65.png",
+          "width": 65,
+          "height": 65,
+          "thumbnails": [
+            {
+              "url": "https://a.mktgcdn.com/p/9KVgSXlaZ0zGghPIpumP33SKOPO1rlEwPHXnxbRIT3Y/65x65.png",
+              "width": 65,
+              "height": 65
+            }
+          ]
+        },
+        "heading": "ROSA Coffee",
+        "description": "ROSA Coffee is rich, smooth, and balanced using 100% Arabica beans and a medium roast that we have perfected over the years. It\u2019s not just another cup of coffee, it\u2019s barista quality coffee at the touch of a button.",
+        "button": {
+          "label": "Learn More",
+          "linkType": "URL",
+          "link": "https://www.maxol.ie/rosa-coffee"
+        }
+      },
+      "uid": "1024935409"
+    },
+    "highlightedFields": {}
+  },
+  {
+    "data": {
+      "id": "search-food-patners",
+      "type": "ce_searchInStore",
+      "slug": "search-food-patners",
+      "name": "Food partners",
+      "c_aboutVertical": {
+        "image": {
+          "url": "https://a.mktgcdn.com/p/eZXxNybFlNxx1vwmDoLCdvkiUpOYZ9zF2MAHsjAl8do/98x98.png",
+          "width": 98,
+          "height": 98,
+          "thumbnails": [
+            {
+              "url": "https://a.mktgcdn.com/p/eZXxNybFlNxx1vwmDoLCdvkiUpOYZ9zF2MAHsjAl8do/98x98.png",
+              "width": 98,
+              "height": 98
+            }
+          ]
+        },
+        "heading": "Food partners",
+        "description": "We have partnered with the very best food brands so whatever your craving, we\u2019ve got you covered throughout the day. Click on the links below to find your next tasty treat at Maxol.",
+        "button": {
+          "label": "Learn More",
+          "linkType": "URL",
+          "link": "https://www.maxol.ie/food-partners"
+        }
+      },
+      "uid": "1024935460"
+    },
+    "highlightedFields": {}
+  },
+  {
+    "data": {
+      "id": "search-Offers And Loyalty",
+      "type": "ce_searchInStore",
+      "slug": "search-offers-and-loyalty",
+      "name": "Offers And Loyalty",
+      "c_aboutVertical": {
+        "image": {
+          "url": "https://a.mktgcdn.com/p/RsN52o2q6eDwC_cfAFoUEeHgRjH4ARbxLxYiwHAjOQE/98x98.png",
+          "width": 98,
+          "height": 98,
+          "thumbnails": [
+            {
+              "url": "https://a.mktgcdn.com/p/RsN52o2q6eDwC_cfAFoUEeHgRjH4ARbxLxYiwHAjOQE/98x98.png",
+              "width": 98,
+              "height": 98
+            }
+          ]
+        },
+        "heading": "Offers And Loyalty",
+        "description": "You'll get bags more value on your every day cupboard essentials and more in-store, check out our offers below.",
+        "button": {
+          "label": "Learn More",
+          "linkType": "URL",
+          "link": "https://www.maxol.ie/offersandloyalty"
+        }
+      },
+      "uid": "1024935461"
+    },
+    "highlightedFields": {}
+  },
+  {
+    "data": {
+      "id": "search-homegrown-at-maxol",
+      "type": "ce_searchInStore",
+      "slug": "search-homegrown-at-maxol",
+      "name": "Homegrown At Maxol",
+      "c_aboutVertical": {
+        "image": {
+          "url": "https://a.mktgcdn.com/p/g_Alcp9RKnfcSPap9tYqotOMhEtrSE3PQGmIEwYtqQY/98x98.png",
+          "width": 98,
+          "height": 98,
+          "thumbnails": [
+            {
+              "url": "https://a.mktgcdn.com/p/g_Alcp9RKnfcSPap9tYqotOMhEtrSE3PQGmIEwYtqQY/98x98.png",
+              "width": 98,
+              "height": 98
+            }
+          ]
+        },
+        "heading": "Homegrown At Maxol",
+        "description": "As a fourth generation family-owned Irish business, at Maxol we are passionate about supporting Irish. Homegrown at Maxol is a programme exclusive to Maxol that gives local businesses the opportunity to be distributed across the network of Maxol stores.",
+        "button": {
+          "label": "Learn More",
+          "linkType": "URL",
+          "link": "https://www.maxol.ie/homegrown"
+        }
+      },
+      "uid": "1024935464"
+    },
+    "highlightedFields": {}
+  },
+  {
+    "data": {
+      "id": "search-In Store Services",
+      "type": "ce_searchInStore",
+      "slug": "search-in-store-services",
+      "name": "In Store Services",
+      "c_aboutVertical": {
+        "image": {
+          "url": "https://a.mktgcdn.com/p/LCQp6HFVSJrNHHCKZ9hw783hQbF5VV5D89bmvfHQww4/98x98.png",
+          "width": 98,
+          "height": 98,
+          "thumbnails": [
+            {
+              "url": "https://a.mktgcdn.com/p/LCQp6HFVSJrNHHCKZ9hw783hQbF5VV5D89bmvfHQww4/98x98.png",
+              "width": 98,
+              "height": 98
+            }
+          ]
+        },
+        "heading": "In Store Services",
+        "description": "At Maxol you'll find everything you need from comfortable seating areas to freshly prepared food to daily cupboard essentials, check out all our in-store services below.",
+        "button": {
+          "label": "Learn More",
+          "linkType": "URL",
+          "link": "https://www.maxol.ie/instore-services"
+        }
+      },
+      "uid": "1024935466"
+    },
+    "highlightedFields": {}
+  },
+  {
+    "data": {
+      "id": "search- Maxol Loyalty",
+      "type": "ce_searchInStore",
+      "slug": "search-maxol-loyalty",
+      "name": "Maxol Loyalty",
+      "c_aboutVertical": {
+        "image": {
+          "url": "https://a.mktgcdn.com/p/RsN52o2q6eDwC_cfAFoUEeHgRjH4ARbxLxYiwHAjOQE/98x98.png",
+          "width": 98,
+          "height": 98,
+          "thumbnails": [
+            {
+              "url": "https://a.mktgcdn.com/p/RsN52o2q6eDwC_cfAFoUEeHgRjH4ARbxLxYiwHAjOQE/98x98.png",
+              "width": 98,
+              "height": 98
+            }
+          ]
+        },
+        "heading": "Maxol Loyalty",
+        "description": "Get more from Maxol with our loyalty app and bag yourself a free delicious ROSA Coffee when you sign up. Download now and enjoy more exclusive offers and rewards from Maxol.",
+        "button": {
+          "label": "Learn More",
+          "linkType": "URL",
+          "link": "https://www.maxol.ie/loyalty"
+        }
+      },
+      "uid": "1024935469"
+    },
+    "highlightedFields": {}
+  },
+  {
+    "data": {
+      "id": "search-for-your-car",
+      "type": "ce_searchInStore",
+      "slug": "search-for-your-car",
+      "name": "For Your Car",
+      "c_aboutVertical": {
+        "image": {
+          "url": "https://a.mktgcdn.com/p/py4CU67GQPO9CNo-_5EK8D_a7Icvpq5NX7RS_T0xhKw/98x98.png",
+          "width": 98,
+          "height": 98,
+          "thumbnails": [
+            {
+              "url": "https://a.mktgcdn.com/p/py4CU67GQPO9CNo-_5EK8D_a7Icvpq5NX7RS_T0xhKw/98x98.png",
+              "width": 98,
+              "height": 98
+            }
+          ]
+        },
+        "heading": "For Your Car",
+        "description": "If your AdBlue warning activates in your vehicle, you will need to top it up. Click below to find your nearest Maxol where you can pick up a 5 Litre or 10 Litre bottle of AdBlue.",
+        "button": {
+          "label": "Learn More",
+          "linkType": "URL",
+          "link": "https://www.maxol.ie/engine-care"
+        }
+      },
+      "uid": "1024935647"
+    },
+    "highlightedFields": {}
+  },
+  {
+    "data": {
+      "id": "search-barista-bar",
+      "type": "ce_searchInStore",
+      "slug": "search-barista-bar",
+      "name": "Barista Bar",
+      "c_aboutVertical": {
+        "image": {
+          "url": "https://a.mktgcdn.com/p/JOYEJKZC3d0PQk1rqFJTmqSXZaYH6CR59THC-Cboz3o/98x98.png",
+          "width": 98,
+          "height": 98,
+          "thumbnails": [
+            {
+              "url": "https://a.mktgcdn.com/p/JOYEJKZC3d0PQk1rqFJTmqSXZaYH6CR59THC-Cboz3o/98x98.png",
+              "width": 98,
+              "height": 98
+            }
+          ]
+        },
+        "heading": "Barista Bar",
+        "description": "Barista Bar is the largest coffee to go brand in Northern Ireland and delivers the experience of convenient, top-quality coffee and hot beverages.",
+        "button": {
+          "label": "Learn More",
+          "linkType": "URL",
+          "link": "https://www.maxol.ie/barista-bar#barista-bar"
+        }
+      },
+      "uid": "1025017727"
+    },
+    "highlightedFields": {}
+  },
+  {
+    "data": {
+      "id": "search-deli",
+      "type": "ce_searchInStore",
+      "slug": "search-deli",
+      "name": "Deli",
+      "c_aboutVertical": {
+        "image": {
+          "url": "https://a.mktgcdn.com/p/h2HQ20gq2LxYNMBnbjeo-aG4MngeFCliXJg6m1YSSkw/98x98.png",
+          "width": 98,
+          "height": 98,
+          "thumbnails": [
+            {
+              "url": "https://a.mktgcdn.com/p/h2HQ20gq2LxYNMBnbjeo-aG4MngeFCliXJg6m1YSSkw/98x98.png",
+              "width": 98,
+              "height": 98
+            }
+          ]
+        },
+        "heading": "Deli",
+        "description": "All you need for breakfast, lunch or a snack: hot food from fry\u2019s & baps to curry & hot wraps, plus handmade sausage rolls, seasonal eats and more. A mix of made to order or ready to go items means you don\u2019t have to wait to satisfy your hunger.",
+        "button": {
+          "label": "Learn More",
+          "linkType": "URL",
+          "link": "https://www.maxol.ie/barista-bar#deli"
+        }
+      },
+      "uid": "1025018448"
+    },
+    "highlightedFields": {}
+  },
+  {
+    "data": {
+      "id": "search-spar",
+      "type": "ce_searchInStore",
+      "slug": "search-spar",
+      "name": "Spar",
+      "c_aboutVertical": {
+        "image": {
+          "url": "https://a.mktgcdn.com/p/AOzioL-qXCZnzb4gtrRRyzSiO9d7SUqM-Q_JBnqngY0/600x433.png",
+          "width": 600,
+          "height": 433,
+          "sourceUrl": "https://dynl.mktgcdn.com/p/A0TzWO72uxiiREuSGALo-KEViMTpxhiBN4gpOX_ZBe0/500x500",
+          "thumbnails": [
+            {
+              "url": "https://a.mktgcdn.com/p/AOzioL-qXCZnzb4gtrRRyzSiO9d7SUqM-Q_JBnqngY0/600x433.png",
+              "width": 600,
+              "height": 433
+            },
+            {
+              "url": "https://a.mktgcdn.com/p/AOzioL-qXCZnzb4gtrRRyzSiO9d7SUqM-Q_JBnqngY0/196x141.png",
+              "width": 196,
+              "height": 141
+            }
+          ]
+        },
+        "heading": "Spar",
+        "description": "Maxol has been in partnership with The Henderson Group, Northern Ireland\u2019s leading family owned convenience business since 2009. The group which own SPAR, EUROSPAR, Barista Coffee, Delish & Daily Deli are well represented across the Northern Ireland Maxol network.",
+        "button": {
+          "label": "Learn More",
+          "linkType": "URL",
+          "link": "https://www.maxol.ie/instore-services-in#spar"
+        }
+      },
+      "uid": "1025019319"
+    },
+    "highlightedFields": {}
+  }
+]

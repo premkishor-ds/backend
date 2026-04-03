@@ -1,0 +1,281 @@
+[
+  {
+    "data": {
+      "id": "search-about-us",
+      "type": "ce_searchAboutUs",
+      "slug": "search-about-us",
+      "name": "About Us",
+      "c_aboutVertical": {
+        "image": {
+          "url": "https://a.mktgcdn.com/p/l2NI7W8eeUitoQ52fWVeJE8QFKAZ4BVK2HDdp4har48/804x450.jpg",
+          "width": 804,
+          "height": 450,
+          "thumbnails": [
+            {
+              "url": "https://a.mktgcdn.com/p/l2NI7W8eeUitoQ52fWVeJE8QFKAZ4BVK2HDdp4har48/804x450.jpg",
+              "width": 804,
+              "height": 450
+            },
+            {
+              "url": "https://a.mktgcdn.com/p/l2NI7W8eeUitoQ52fWVeJE8QFKAZ4BVK2HDdp4har48/619x346.jpg",
+              "width": 619,
+              "height": 346
+            },
+            {
+              "url": "https://a.mktgcdn.com/p/l2NI7W8eeUitoQ52fWVeJE8QFKAZ4BVK2HDdp4har48/600x336.jpg",
+              "width": 600,
+              "height": 336
+            },
+            {
+              "url": "https://a.mktgcdn.com/p/l2NI7W8eeUitoQ52fWVeJE8QFKAZ4BVK2HDdp4har48/196x110.jpg",
+              "width": 196,
+              "height": 110
+            }
+          ]
+        },
+        "heading": "Welcome to The Maxol Group",
+        "description": "Ireland\u2019s leading family-owned forecourt and convenience retailer that has been at the heart of communities for more than 102 years.",
+        "button": {
+          "label": "Learn More",
+          "linkType": "URL",
+          "link": "https://www.maxol.ie/about-us"
+        }
+      },
+      "uid": "1010979916"
+    },
+    "highlightedFields": {}
+  },
+  {
+    "data": {
+      "id": "search-our-history",
+      "type": "ce_searchAboutUs",
+      "slug": "search-our-history",
+      "name": "Our History",
+      "c_aboutVertical": {
+        "image": {
+          "url": "https://a.mktgcdn.com/p/TczyM-EFPce19HRFOY3twk4eiSf5skq2MkKTpO_DXYA/814x600.jpg",
+          "width": 814,
+          "height": 600,
+          "sourceUrl": "https://a.mktgcdn.com/p/TczyM-EFPce19HRFOY3twk4eiSf5skq2MkKTpO_DXYA/814x600.jpg",
+          "thumbnails": [
+            {
+              "url": "https://a.mktgcdn.com/p/TczyM-EFPce19HRFOY3twk4eiSf5skq2MkKTpO_DXYA/814x600.jpg",
+              "width": 814,
+              "height": 600
+            },
+            {
+              "url": "https://a.mktgcdn.com/p/TczyM-EFPce19HRFOY3twk4eiSf5skq2MkKTpO_DXYA/619x456.jpg",
+              "width": 619,
+              "height": 456
+            },
+            {
+              "url": "https://a.mktgcdn.com/p/TczyM-EFPce19HRFOY3twk4eiSf5skq2MkKTpO_DXYA/600x442.jpg",
+              "width": 600,
+              "height": 442
+            },
+            {
+              "url": "https://a.mktgcdn.com/p/TczyM-EFPce19HRFOY3twk4eiSf5skq2MkKTpO_DXYA/196x144.jpg",
+              "width": 196,
+              "height": 144
+            }
+          ]
+        },
+        "heading": "Our History",
+        "description": "12 April 2020 marked the 100th anniversary of the establishment of McMullan Brothers Limited, now known as the Maxol Group. The family-owned Irish company was formerly registered on that date and held its first board meeting in Belfast on 17 May 1920.",
+        "button": {
+          "label": "Learn More",
+          "linkType": "URL",
+          "link": "https://www.maxol.ie/history"
+        }
+      },
+      "uid": "1010979938"
+    },
+    "highlightedFields": {}
+  },
+  {
+    "data": {
+      "id": "search-careers",
+      "type": "ce_searchAboutUs",
+      "slug": "search-careers",
+      "name": "Careers",
+      "c_aboutVertical": {
+        "image": {
+          "url": "https://a.mktgcdn.com/p/JtPQl9JP6v4iWC0OvuktWXOr2E_oYyNyf5zlCOAC6jc/814x600.jpg",
+          "width": 814,
+          "height": 600,
+          "sourceUrl": "https://a.mktgcdn.com/p/JtPQl9JP6v4iWC0OvuktWXOr2E_oYyNyf5zlCOAC6jc/814x600.jpg",
+          "thumbnails": [
+            {
+              "url": "https://a.mktgcdn.com/p/JtPQl9JP6v4iWC0OvuktWXOr2E_oYyNyf5zlCOAC6jc/814x600.jpg",
+              "width": 814,
+              "height": 600
+            },
+            {
+              "url": "https://a.mktgcdn.com/p/JtPQl9JP6v4iWC0OvuktWXOr2E_oYyNyf5zlCOAC6jc/619x456.jpg",
+              "width": 619,
+              "height": 456
+            },
+            {
+              "url": "https://a.mktgcdn.com/p/JtPQl9JP6v4iWC0OvuktWXOr2E_oYyNyf5zlCOAC6jc/600x442.jpg",
+              "width": 600,
+              "height": 442
+            },
+            {
+              "url": "https://a.mktgcdn.com/p/JtPQl9JP6v4iWC0OvuktWXOr2E_oYyNyf5zlCOAC6jc/196x144.jpg",
+              "width": 196,
+              "height": 144
+            }
+          ]
+        },
+        "heading": "Careers",
+        "description": "Maxol has been at the heart of Irish communities for over 102 years. We are proud to be the largest family-owned convenience forecourt retailer on the Island of Ireland.",
+        "button": {
+          "label": "Learn More",
+          "linkType": "URL",
+          "link": "https://www.maxol.ie/careers"
+        }
+      },
+      "uid": "1016140975"
+    },
+    "highlightedFields": {}
+  },
+  {
+    "data": {
+      "id": "search-leardership-team",
+      "type": "ce_searchAboutUs",
+      "name": "Leardership Team",
+      "c_aboutVertical": {
+        "image": {
+          "url": "https://a.mktgcdn.com/p/UYBmDYDRMQ06lnVpReppvbWBW7mwJXh-U5uaZXqrqhA/814x600.jpg",
+          "width": 814,
+          "height": 600,
+          "sourceUrl": "https://a.mktgcdn.com/p/UYBmDYDRMQ06lnVpReppvbWBW7mwJXh-U5uaZXqrqhA/814x600.jpg",
+          "thumbnails": [
+            {
+              "url": "https://a.mktgcdn.com/p/UYBmDYDRMQ06lnVpReppvbWBW7mwJXh-U5uaZXqrqhA/814x600.jpg",
+              "width": 814,
+              "height": 600
+            },
+            {
+              "url": "https://a.mktgcdn.com/p/UYBmDYDRMQ06lnVpReppvbWBW7mwJXh-U5uaZXqrqhA/619x456.jpg",
+              "width": 619,
+              "height": 456
+            },
+            {
+              "url": "https://a.mktgcdn.com/p/UYBmDYDRMQ06lnVpReppvbWBW7mwJXh-U5uaZXqrqhA/600x442.jpg",
+              "width": 600,
+              "height": 442
+            },
+            {
+              "url": "https://a.mktgcdn.com/p/UYBmDYDRMQ06lnVpReppvbWBW7mwJXh-U5uaZXqrqhA/196x144.jpg",
+              "width": 196,
+              "height": 144
+            }
+          ]
+        },
+        "heading": "Leardership Team",
+        "description": "An honours business graduate of the University of Bradford, Brian has worked for the Group since 1986. Brian is the CEO of maxol.",
+        "button": {
+          "label": "Learn More",
+          "linkType": "URL",
+          "link": "https://www.maxol.ie/leadership-team"
+        }
+      },
+      "uid": "1024928953"
+    },
+    "highlightedFields": {}
+  },
+  {
+    "data": {
+      "id": "search-Health Safety & Environmental Policy",
+      "type": "ce_searchAboutUs",
+      "slug": "search-health-safety-&-environmental-policy",
+      "name": "Health Safety & Environmental Policy",
+      "c_aboutVertical": {
+        "image": {
+          "url": "https://a.mktgcdn.com/p/UYBmDYDRMQ06lnVpReppvbWBW7mwJXh-U5uaZXqrqhA/814x600.jpg",
+          "width": 814,
+          "height": 600,
+          "sourceUrl": "https://a.mktgcdn.com/p/UYBmDYDRMQ06lnVpReppvbWBW7mwJXh-U5uaZXqrqhA/814x600.jpg",
+          "thumbnails": [
+            {
+              "url": "https://a.mktgcdn.com/p/UYBmDYDRMQ06lnVpReppvbWBW7mwJXh-U5uaZXqrqhA/814x600.jpg",
+              "width": 814,
+              "height": 600
+            },
+            {
+              "url": "https://a.mktgcdn.com/p/UYBmDYDRMQ06lnVpReppvbWBW7mwJXh-U5uaZXqrqhA/619x456.jpg",
+              "width": 619,
+              "height": 456
+            },
+            {
+              "url": "https://a.mktgcdn.com/p/UYBmDYDRMQ06lnVpReppvbWBW7mwJXh-U5uaZXqrqhA/600x442.jpg",
+              "width": 600,
+              "height": 442
+            },
+            {
+              "url": "https://a.mktgcdn.com/p/UYBmDYDRMQ06lnVpReppvbWBW7mwJXh-U5uaZXqrqhA/196x144.jpg",
+              "width": 196,
+              "height": 144
+            }
+          ]
+        },
+        "heading": "Health Safety & Environmental Policy",
+        "description": "Maxol's Health, Safety and Environmental Policy reflects its objective to operate in a way that is compatible with the health, safety and environmental needs of its employees, and the community.",
+        "button": {
+          "label": "Learn More",
+          "linkType": "URL",
+          "link": "https://www.maxol.ie/health-safety-environmental-policy"
+        }
+      },
+      "uid": "1025036367"
+    },
+    "highlightedFields": {}
+  },
+  {
+    "data": {
+      "id": "search-Modern Slavery Statement",
+      "type": "ce_searchAboutUs",
+      "name": "Modern Slavery Statement",
+      "c_aboutVertical": {
+        "image": {
+          "url": "https://a.mktgcdn.com/p/UYBmDYDRMQ06lnVpReppvbWBW7mwJXh-U5uaZXqrqhA/814x600.jpg",
+          "width": 814,
+          "height": 600,
+          "sourceUrl": "https://a.mktgcdn.com/p/UYBmDYDRMQ06lnVpReppvbWBW7mwJXh-U5uaZXqrqhA/814x600.jpg",
+          "thumbnails": [
+            {
+              "url": "https://a.mktgcdn.com/p/UYBmDYDRMQ06lnVpReppvbWBW7mwJXh-U5uaZXqrqhA/814x600.jpg",
+              "width": 814,
+              "height": 600
+            },
+            {
+              "url": "https://a.mktgcdn.com/p/UYBmDYDRMQ06lnVpReppvbWBW7mwJXh-U5uaZXqrqhA/619x456.jpg",
+              "width": 619,
+              "height": 456
+            },
+            {
+              "url": "https://a.mktgcdn.com/p/UYBmDYDRMQ06lnVpReppvbWBW7mwJXh-U5uaZXqrqhA/600x442.jpg",
+              "width": 600,
+              "height": 442
+            },
+            {
+              "url": "https://a.mktgcdn.com/p/UYBmDYDRMQ06lnVpReppvbWBW7mwJXh-U5uaZXqrqhA/196x144.jpg",
+              "width": 196,
+              "height": 144
+            }
+          ]
+        },
+        "heading": "Modern Slavery Statement",
+        "description": "Human Trafficking, or Modern Slavery as it is often referred to, is a serious crime and a violation of a person\u2019s fundamental human rights. It can take on many forms, including slavery, servitude, forced and compulsory labour or human trafficking, all of which have the common element of depriving a person of their liberty in order to exploit them for personal or commercial gain.",
+        "button": {
+          "label": "Learn More",
+          "linkType": "URL",
+          "link": "https://www.maxol.ie/modern-slavery-statement"
+        }
+      },
+      "uid": "1025036368"
+    },
+    "highlightedFields": {}
+  }
+]

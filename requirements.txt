@@ -1,0 +1,9 @@
+openai
+fastapi
+uvicorn
+psycopg2-binary
+pgvector
+python-dotenv
+pydantic
+pandas
+requests

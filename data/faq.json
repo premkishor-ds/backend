@@ -1,0 +1,3297 @@
+[
+  {
+    "data": {
+      "id": "faq_1",
+      "type": "ce_searchFaqs",
+      "answerV2": {
+        "json": {
+          "root": {
+            "type": "root",
+            "direction": "ltr",
+            "format": "",
+            "indent": 0,
+            "children": [
+              {
+                "type": "paragraph",
+                "direction": "ltr",
+                "format": "",
+                "indent": 0,
+                "children": [
+                  {
+                    "type": "text",
+                    "detail": 0,
+                    "format": 0,
+                    "mode": "normal",
+                    "style": "",
+                    "text": "You can find your nearest Maxol ",
+                    "version": 1
+                  },
+                  {
+                    "type": "link",
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "rel": "noopener",
+                    "url": "https://stations.maxol.ie/search",
+                    "children": [
+                      {
+                        "type": "text",
+                        "detail": 0,
+                        "format": 0,
+                        "mode": "normal",
+                        "style": "",
+                        "text": "here",
+                        "version": 1
+                      }
+                    ],
+                    "version": 1
+                  }
+                ],
+                "version": 1
+              }
+            ],
+            "version": 1
+          }
+        }
+      },
+      "question": "How can I find my nearest Maxol?",
+      "name": "How can I find my nearest Maxol?",
+      "c_faqsCategory": [
+        "General"
+      ],
+      "uid": "1024833163"
+    },
+    "highlightedFields": {}
+  },
+  {
+    "data": {
+      "id": "faq_2",
+      "type": "ce_searchFaqs",
+      "answerV2": {
+        "json": {
+          "root": {
+            "type": "root",
+            "direction": "ltr",
+            "format": "",
+            "indent": 0,
+            "children": [
+              {
+                "type": "paragraph",
+                "direction": "ltr",
+                "format": "",
+                "indent": 0,
+                "children": [
+                  {
+                    "type": "text",
+                    "detail": 0,
+                    "format": 0,
+                    "mode": "normal",
+                    "style": "",
+                    "text": "You can find more information on the fuel sold at your nearest Maxol ",
+                    "version": 1
+                  },
+                  {
+                    "type": "link",
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "rel": "noopener",
+                    "url": "https://www.maxol.ie/fuels",
+                    "children": [
+                      {
+                        "type": "text",
+                        "detail": 0,
+                        "format": 0,
+                        "mode": "normal",
+                        "style": "",
+                        "text": "here",
+                        "version": 1
+                      }
+                    ],
+                    "version": 1
+                  }
+                ],
+                "version": 1
+              }
+            ],
+            "version": 1
+          }
+        }
+      },
+      "question": "What fuel does Maxol sell?",
+      "name": "What fuel does Maxol sell?",
+      "c_faqsCategory": [
+        "General"
+      ],
+      "uid": "1024833167"
+    },
+    "highlightedFields": {}
+  },
+  {
+    "data": {
+      "id": "faq_3",
+      "type": "ce_searchFaqs",
+      "answerV2": {
+        "json": {
+          "root": {
+            "type": "root",
+            "direction": "ltr",
+            "format": "",
+            "indent": 0,
+            "children": [
+              {
+                "type": "paragraph",
+                "direction": "ltr",
+                "format": "",
+                "indent": 0,
+                "children": [
+                  {
+                    "type": "text",
+                    "detail": 0,
+                    "format": 0,
+                    "mode": "normal",
+                    "style": "",
+                    "text": "Click here [maxol premium fuels page] to learn about Maxol premium fuel. ",
+                    "version": 1
+                  }
+                ],
+                "version": 1
+              }
+            ],
+            "version": 1
+          }
+        }
+      },
+      "question": "What are the benefits of Maxol Premium Fuel?",
+      "name": "What are the benefits of Maxol Premium Fuel?",
+      "c_faqsCategory": [
+        "General"
+      ],
+      "uid": "1024833168"
+    },
+    "highlightedFields": {}
+  },
+  {
+    "data": {
+      "id": "faq_4",
+      "type": "ce_searchFaqs",
+      "answerV2": {
+        "json": {
+          "root": {
+            "type": "root",
+            "direction": "ltr",
+            "format": "",
+            "indent": 0,
+            "children": [
+              {
+                "type": "paragraph",
+                "direction": "ltr",
+                "format": "",
+                "indent": 0,
+                "children": [
+                  {
+                    "type": "text",
+                    "detail": 0,
+                    "format": 0,
+                    "mode": "normal",
+                    "style": "",
+                    "text": "At Maxol, we provide a wide range of service on the forecourt such as services areas, car wash and electric vehical charging, ",
+                    "version": 1
+                  },
+                  {
+                    "type": "link",
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "rel": "noopener",
+                    "url": "/forecourt-services",
+                    "children": [
+                      {
+                        "type": "text",
+                        "detail": 0,
+                        "format": 0,
+                        "mode": "normal",
+                        "style": "",
+                        "text": "click here",
+                        "version": 1
+                      }
+                    ],
+                    "version": 1
+                  },
+                  {
+                    "type": "text",
+                    "detail": 0,
+                    "format": 0,
+                    "mode": "normal",
+                    "style": "",
+                    "text": "  to learn more. In-store, we provide customer toilets, atm's, bill pay services and more, ",
+                    "version": 1
+                  },
+                  {
+                    "type": "link",
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "rel": "noopener",
+                    "url": "/instore-services",
+                    "children": [
+                      {
+                        "type": "text",
+                        "detail": 0,
+                        "format": 0,
+                        "mode": "normal",
+                        "style": "",
+                        "text": "click here",
+                        "version": 1
+                      }
+                    ],
+                    "version": 1
+                  },
+                  {
+                    "type": "text",
+                    "detail": 0,
+                    "format": 0,
+                    "mode": "normal",
+                    "style": "",
+                    "text": " to learn more",
+                    "version": 1
+                  }
+                ],
+                "version": 1
+              }
+            ],
+            "version": 1
+          }
+        }
+      },
+      "question": "What other services do you provide?",
+      "name": "What other services do you provide?",
+      "c_faqsCategory": [
+        "General"
+      ],
+      "uid": "1024833169"
+    },
+    "highlightedFields": {}
+  },
+  {
+    "data": {
+      "id": "faq_5",
+      "type": "ce_searchFaqs",
+      "answerV2": {
+        "json": {
+          "root": {
+            "type": "root",
+            "direction": "ltr",
+            "format": "",
+            "indent": 0,
+            "children": [
+              {
+                "type": "paragraph",
+                "direction": "ltr",
+                "format": "",
+                "indent": 0,
+                "children": [
+                  {
+                    "type": "text",
+                    "detail": 0,
+                    "format": 0,
+                    "mode": "normal",
+                    "style": "",
+                    "text": "Please use the contact form ",
+                    "version": 1
+                  },
+                  {
+                    "type": "link",
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "rel": "noopener",
+                    "url": "/contact-us",
+                    "children": [
+                      {
+                        "type": "text",
+                        "detail": 0,
+                        "format": 0,
+                        "mode": "normal",
+                        "style": "",
+                        "text": "here",
+                        "version": 1
+                      }
+                    ],
+                    "version": 1
+                  },
+                  {
+                    "type": "text",
+                    "detail": 0,
+                    "format": 0,
+                    "mode": "normal",
+                    "style": "",
+                    "text": " to get in touch with our customer service team. Please provide the date, station name to assist us in responding to your query.",
+                    "version": 1
+                  }
+                ],
+                "version": 1
+              }
+            ],
+            "version": 1
+          }
+        }
+      },
+      "question": "How do i report an issue at one of your service stations?",
+      "name": "How do i report an issue at one of your service stations?",
+      "c_faqsCategory": [
+        "General"
+      ],
+      "uid": "1024833170"
+    },
+    "highlightedFields": {}
+  },
+  {
+    "data": {
+      "id": "faq_6",
+      "type": "ce_searchFaqs",
+      "answerV2": {
+        "json": {
+          "root": {
+            "type": "root",
+            "direction": "ltr",
+            "format": "",
+            "indent": 0,
+            "children": [
+              {
+                "type": "paragraph",
+                "direction": "ltr",
+                "format": "",
+                "indent": 0,
+                "children": [
+                  {
+                    "type": "text",
+                    "detail": 0,
+                    "format": 0,
+                    "mode": "normal",
+                    "style": "",
+                    "text": "Maxol gift vouchers are a great gift option and are on sale at selected Maxol Service Stations. Available in \u20ac10/\u00a310, \u20ac20 denominations, they can be used to purchase fuel at any Maxol Service Station.  If you\u2019re a corporate customer and would like to place a large order for fuel vouchers or carwash vouchers, please contact the Maxol Head Office directly at  ",
+                    "version": 1
+                  },
+                  {
+                    "type": "autolink",
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "url": "mailto:customerservice@maxol.ie",
+                    "children": [
+                      {
+                        "type": "text",
+                        "detail": 0,
+                        "format": 0,
+                        "mode": "normal",
+                        "style": "",
+                        "text": "customerservice@maxol.ie",
+                        "version": 1
+                      }
+                    ],
+                    "version": 1
+                  },
+                  {
+                    "type": "text",
+                    "detail": 0,
+                    "format": 0,
+                    "mode": "normal",
+                    "style": "",
+                    "text": ".",
+                    "version": 1
+                  }
+                ],
+                "version": 1
+              }
+            ],
+            "version": 1
+          }
+        }
+      },
+      "question": "Does Maxol sell Fuel Vouchers?",
+      "name": "Does Maxol sell Fuel Vouchers?",
+      "c_faqsCategory": [
+        "General"
+      ],
+      "uid": "1024833172"
+    },
+    "highlightedFields": {}
+  },
+  {
+    "data": {
+      "id": "faq_7",
+      "type": "ce_searchFaqs",
+      "answerV2": {
+        "json": {
+          "root": {
+            "type": "root",
+            "direction": "ltr",
+            "format": "",
+            "indent": 0,
+            "children": [
+              {
+                "type": "paragraph",
+                "direction": "ltr",
+                "format": "",
+                "indent": 0,
+                "children": [
+                  {
+                    "type": "text",
+                    "detail": 0,
+                    "format": 0,
+                    "mode": "normal",
+                    "style": "",
+                    "text": "A pre-authorisation is a temporary hold that is placed on a specific amount of the available balance on a credit or debit card. A pre-authorisation is not a charge to your card and no funds have been debited from your account.",
+                    "version": 1
+                  },
+                  {
+                    "type": "linebreak",
+                    "version": 1
+                  }
+                ],
+                "version": 1
+              }
+            ],
+            "version": 1
+          }
+        }
+      },
+      "question": "What is credit/debit card pre-authorisation?",
+      "name": "What is credit/debit card pre-authorisation?",
+      "c_faqsCategory": [
+        "Pay at Pump"
+      ],
+      "uid": "1024833173"
+    },
+    "highlightedFields": {}
+  },
+  {
+    "data": {
+      "id": "faq_8",
+      "type": "ce_searchFaqs",
+      "answerV2": {
+        "json": {
+          "root": {
+            "type": "root",
+            "direction": "ltr",
+            "format": "",
+            "indent": 0,
+            "children": [
+              {
+                "type": "paragraph",
+                "direction": "ltr",
+                "format": "",
+                "indent": 0,
+                "children": [
+                  {
+                    "type": "text",
+                    "detail": 0,
+                    "format": 0,
+                    "mode": "normal",
+                    "style": "",
+                    "text": "The amount that will be pre-authorised on your credit/debit card will be the maximum amount you selected to purchase at the pump.",
+                    "version": 1
+                  },
+                  {
+                    "type": "linebreak",
+                    "version": 1
+                  }
+                ],
+                "version": 1
+              }
+            ],
+            "version": 1
+          }
+        }
+      },
+      "question": "How much will the credit/debit card pre-authorisation be?",
+      "name": "How much will the credit/debit card pre-authorisation be?",
+      "c_faqsCategory": [
+        "Pay at Pump"
+      ],
+      "uid": "1024833174"
+    },
+    "highlightedFields": {}
+  },
+  {
+    "data": {
+      "id": "faq_9",
+      "type": "ce_searchFaqs",
+      "answerV2": {
+        "json": {
+          "root": {
+            "type": "root",
+            "direction": "ltr",
+            "format": "",
+            "indent": 0,
+            "children": [
+              {
+                "type": "paragraph",
+                "direction": "ltr",
+                "format": "",
+                "indent": 0,
+                "children": [
+                  {
+                    "type": "text",
+                    "detail": 0,
+                    "format": 0,
+                    "mode": "normal",
+                    "style": "",
+                    "text": "Pre-authorisation is a requirement that is mandated by Visa and MasterCard on both Maxol, as the merchant, and your bank, as the card issuer. The rules governing pre-authorisation are set by Visa and MasterCard. While Maxol currently complies with all of their requirements, we are aware of a small number of banks that have not yet completed the necessary system changes needed to comply with Visa and MasterCard\u2019s latest requirements.",
+                    "version": 1
+                  },
+                  {
+                    "type": "linebreak",
+                    "version": 1
+                  }
+                ],
+                "version": 1
+              }
+            ],
+            "version": 1
+          }
+        }
+      },
+      "question": "Who is responsible for pre-authorisation?",
+      "name": "Who is responsible for pre-authorisation?",
+      "c_faqsCategory": [
+        "Pay at Pump"
+      ],
+      "uid": "1024833175"
+    },
+    "highlightedFields": {}
+  },
+  {
+    "data": {
+      "id": "faq_10",
+      "type": "ce_searchFaqs",
+      "answerV2": {
+        "json": {
+          "root": {
+            "type": "root",
+            "direction": "ltr",
+            "format": "",
+            "indent": 0,
+            "children": [
+              {
+                "type": "paragraph",
+                "direction": "ltr",
+                "format": "",
+                "indent": 0,
+                "children": [
+                  {
+                    "type": "text",
+                    "detail": 0,
+                    "format": 0,
+                    "mode": "normal",
+                    "style": "",
+                    "text": "For the majority of customers, the pre-authorisation will be released almost immediately following the transaction. However, we are aware that customers of certain banks are experiencing delays in seeing the pre-authorised amount being released on their cards.",
+                    "version": 1
+                  },
+                  {
+                    "type": "linebreak",
+                    "version": 1
+                  },
+                  {
+                    "type": "text",
+                    "detail": 0,
+                    "format": 0,
+                    "mode": "normal",
+                    "style": "",
+                    "text": "These currently include customers of Bank of Ireland and Permanent TSB who can experience delays of up to 10 working days to have the pre-authorisation released. Both banks have assured us that they are working on a solution to this issue and it should be available to customers in the near future.",
+                    "version": 1
+                  }
+                ],
+                "version": 1
+              }
+            ],
+            "version": 1
+          }
+        }
+      },
+      "question": "When will the pre-authorisation be released from my credit/debit card?",
+      "name": "When will the pre-authorisation be released from my credit/debit card?",
+      "c_faqsCategory": [
+        "Pay at Pump"
+      ],
+      "uid": "1024833176"
+    },
+    "highlightedFields": {}
+  },
+  {
+    "data": {
+      "id": "faq_11",
+      "type": "ce_searchFaqs",
+      "answerV2": {
+        "json": {
+          "root": {
+            "type": "root",
+            "direction": "ltr",
+            "format": "",
+            "indent": 0,
+            "children": [
+              {
+                "type": "paragraph",
+                "direction": "ltr",
+                "format": "",
+                "indent": 0,
+                "children": [
+                  {
+                    "type": "text",
+                    "detail": 0,
+                    "format": 0,
+                    "mode": "normal",
+                    "style": "",
+                    "text": "You can select to receive a receipt during your Pay At Pump transaction. If you did not do this, or have mislaid your receipt, you can print a copy receipt at the pay terminal. Simply return to the same pay terminal and select the \u2018Ticket\u2019 option on screen and insert the debit/credit card used. A copy receipt will be issued automatically.",
+                    "version": 1
+                  },
+                  {
+                    "type": "linebreak",
+                    "version": 1
+                  },
+                  {
+                    "type": "text",
+                    "detail": 0,
+                    "format": 0,
+                    "mode": "normal",
+                    "style": "",
+                    "text": "Alternatively, you can send your transaction details to ",
+                    "version": 1
+                  },
+                  {
+                    "type": "autolink",
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "url": "mailto:customerservice@Maxol.com",
+                    "children": [
+                      {
+                        "type": "text",
+                        "detail": 0,
+                        "format": 0,
+                        "mode": "normal",
+                        "style": "",
+                        "text": "customerservice@Maxol.com",
+                        "version": 1
+                      }
+                    ],
+                    "version": 1
+                  },
+                  {
+                    "type": "text",
+                    "detail": 0,
+                    "format": 0,
+                    "mode": "normal",
+                    "style": "",
+                    "text": " and a copy receipt will be issued to you.",
+                    "version": 1
+                  }
+                ],
+                "version": 1
+              }
+            ],
+            "version": 1
+          }
+        }
+      },
+      "question": "I was not issued a receipt for my Pay At Pump transaction?",
+      "name": "I was not issued a receipt for my Pay At Pump transaction?",
+      "c_faqsCategory": [
+        "Pay at Pump"
+      ],
+      "uid": "1024833177"
+    },
+    "highlightedFields": {}
+  },
+  {
+    "data": {
+      "id": "faq_12",
+      "type": "ce_searchFaqs",
+      "answerV2": {
+        "json": {
+          "root": {
+            "type": "root",
+            "direction": "ltr",
+            "format": "",
+            "indent": 0,
+            "children": [
+              {
+                "type": "paragraph",
+                "direction": "ltr",
+                "format": "",
+                "indent": 0,
+                "children": [
+                  {
+                    "type": "text",
+                    "detail": 0,
+                    "format": 0,
+                    "mode": "normal",
+                    "style": "",
+                    "text": "Current banking procedures do not allow certain cards, including prepaid cards, to be used at automated fuel dispensers. Please contact your bank who will be able to confirm if this caused your card to be declined.",
+                    "version": 1
+                  },
+                  {
+                    "type": "linebreak",
+                    "version": 1
+                  }
+                ],
+                "version": 1
+              }
+            ],
+            "version": 1
+          }
+        }
+      },
+      "question": "My credit/debit card was declined. What should I do?",
+      "name": "My credit/debit card was declined. What should I do?",
+      "c_faqsCategory": [
+        "Pay at Pump"
+      ],
+      "uid": "1024833178"
+    },
+    "highlightedFields": {}
+  },
+  {
+    "data": {
+      "id": "faq_13",
+      "type": "ce_searchFaqs",
+      "answerV2": {
+        "json": {
+          "root": {
+            "type": "root",
+            "direction": "ltr",
+            "format": "",
+            "indent": 0,
+            "children": [
+              {
+                "type": "paragraph",
+                "direction": "ltr",
+                "format": "",
+                "indent": 0,
+                "children": [
+                  {
+                    "type": "text",
+                    "detail": 0,
+                    "format": 0,
+                    "mode": "normal",
+                    "style": "",
+                    "text": "Maxol Fuel Cards offer a range of excellent account benefits such as Cost control on your fuel purchases, exceptional card security, access to an all ireland network of stations and competitive payment terms, learn more about the beneifts of becoming a Maxol Fuel Card customer ",
+                    "version": 1
+                  },
+                  {
+                    "type": "link",
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "rel": "noopener",
+                    "url": "/fuelcards",
+                    "children": [
+                      {
+                        "type": "text",
+                        "detail": 0,
+                        "format": 0,
+                        "mode": "normal",
+                        "style": "",
+                        "text": "here",
+                        "version": 1
+                      }
+                    ],
+                    "version": 1
+                  },
+                  {
+                    "type": "text",
+                    "detail": 0,
+                    "format": 0,
+                    "mode": "normal",
+                    "style": "",
+                    "text": ".",
+                    "version": 1
+                  }
+                ],
+                "version": 1
+              }
+            ],
+            "version": 1
+          }
+        }
+      },
+      "question": "What are the benefits of a Maxol Fuel card?",
+      "name": "What are the benefits of a Maxol Fuel card?",
+      "c_faqsCategory": [
+        "Fuel Card"
+      ],
+      "uid": "1024833180"
+    },
+    "highlightedFields": {}
+  },
+  {
+    "data": {
+      "id": "faq_14",
+      "type": "ce_searchFaqs",
+      "answerV2": {
+        "json": {
+          "root": {
+            "type": "root",
+            "direction": "ltr",
+            "format": "",
+            "indent": 0,
+            "children": [
+              {
+                "type": "paragraph",
+                "direction": "ltr",
+                "format": "",
+                "indent": 0,
+                "children": [
+                  {
+                    "type": "text",
+                    "detail": 0,
+                    "format": 0,
+                    "mode": "normal",
+                    "style": "",
+                    "text": "You can learn about Maxol Fuel Card ",
+                    "version": 1
+                  },
+                  {
+                    "type": "link",
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "rel": "noopener",
+                    "url": "/fuelcards",
+                    "children": [
+                      {
+                        "type": "text",
+                        "detail": 0,
+                        "format": 0,
+                        "mode": "normal",
+                        "style": "",
+                        "text": "here",
+                        "version": 1
+                      }
+                    ],
+                    "version": 1
+                  },
+                  {
+                    "type": "text",
+                    "detail": 0,
+                    "format": 0,
+                    "mode": "normal",
+                    "style": "",
+                    "text": " and register your interest here",
+                    "version": 1
+                  }
+                ],
+                "version": 1
+              }
+            ],
+            "version": 1
+          }
+        }
+      },
+      "question": "How do I apply for a Maxol Fuel card ?",
+      "name": "How do I apply for a Maxol Fuel card ?",
+      "c_faqsCategory": [
+        "Fuel Card"
+      ],
+      "uid": "1024833181"
+    },
+    "highlightedFields": {}
+  },
+  {
+    "data": {
+      "id": "faq_15",
+      "type": "ce_searchFaqs",
+      "answerV2": {
+        "json": {
+          "root": {
+            "type": "root",
+            "direction": "ltr",
+            "format": "",
+            "indent": 0,
+            "children": [
+              {
+                "type": "paragraph",
+                "direction": "ltr",
+                "format": "",
+                "indent": 0,
+                "children": [
+                  {
+                    "type": "text",
+                    "detail": 0,
+                    "format": 0,
+                    "mode": "normal",
+                    "style": "",
+                    "text": "The Maxol national account card can be used at 700 stations nationwide and the Maxol Charge card can be used at 240+ Maxol branded service stations. To see where you can use your fuel card, we advise you to download the Maxol Loyalty app and use the Fuel card station finder feature in app. ",
+                    "version": 1
+                  }
+                ],
+                "version": 1
+              }
+            ],
+            "version": 1
+          }
+        }
+      },
+      "question": "Where can i use my Maxol Fuel Card?",
+      "name": "Where can i use my Maxol Fuel Card?",
+      "c_faqsCategory": [
+        "Fuel Card"
+      ],
+      "uid": "1024833182"
+    },
+    "highlightedFields": {}
+  },
+  {
+    "data": {
+      "id": "faq_16",
+      "type": "ce_searchFaqs",
+      "answerV2": {
+        "json": {
+          "root": {
+            "type": "root",
+            "direction": "ltr",
+            "format": "",
+            "indent": 0,
+            "children": [
+              {
+                "type": "paragraph",
+                "direction": "ltr",
+                "format": "",
+                "indent": 0,
+                "children": [
+                  {
+                    "type": "text",
+                    "detail": 0,
+                    "format": 0,
+                    "mode": "normal",
+                    "style": "",
+                    "text": "If you are interested in becoming a Maxol Independant Dealer partner you can learn more and get in touch with a member of our team ",
+                    "version": 1
+                  },
+                  {
+                    "type": "link",
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "rel": "noopener",
+                    "url": "/dealer-partner",
+                    "children": [
+                      {
+                        "type": "text",
+                        "detail": 0,
+                        "format": 0,
+                        "mode": "normal",
+                        "style": "",
+                        "text": "here",
+                        "version": 1
+                      }
+                    ],
+                    "version": 1
+                  }
+                ],
+                "version": 1
+              }
+            ],
+            "version": 1
+          }
+        }
+      },
+      "question": "Who do I contact to become a Maxol Dealer?",
+      "name": "Who do I contact to become a Maxol Dealer?",
+      "c_faqsCategory": [
+        "Dealer"
+      ],
+      "uid": "1024833183"
+    },
+    "highlightedFields": {}
+  },
+  {
+    "data": {
+      "id": "faq_17",
+      "type": "ce_searchFaqs",
+      "answerV2": {
+        "json": {
+          "root": {
+            "type": "root",
+            "direction": "ltr",
+            "format": "",
+            "indent": 0,
+            "children": [
+              {
+                "type": "paragraph",
+                "direction": "ltr",
+                "format": "",
+                "indent": 0,
+                "children": [
+                  {
+                    "type": "text",
+                    "detail": 0,
+                    "format": 0,
+                    "mode": "normal",
+                    "style": "",
+                    "text": "To learn about the benefits of becoming a Maxol Dealer please click ",
+                    "version": 1
+                  },
+                  {
+                    "type": "link",
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "rel": "noopener",
+                    "url": "/dealer-partner",
+                    "children": [
+                      {
+                        "type": "text",
+                        "detail": 0,
+                        "format": 0,
+                        "mode": "normal",
+                        "style": "",
+                        "text": "here",
+                        "version": 1
+                      }
+                    ],
+                    "version": 1
+                  }
+                ],
+                "version": 1
+              }
+            ],
+            "version": 1
+          }
+        }
+      },
+      "question": "What are the benefits of becoming a Maxol Dealer?",
+      "name": "What are the benefits of becoming a Maxol Dealer?",
+      "c_faqsCategory": [
+        "Dealer"
+      ],
+      "uid": "1024833184"
+    },
+    "highlightedFields": {}
+  },
+  {
+    "data": {
+      "id": "faq_18",
+      "type": "ce_searchFaqs",
+      "answerV2": {
+        "json": {
+          "root": {
+            "type": "root",
+            "direction": "ltr",
+            "format": "",
+            "indent": 0,
+            "children": [
+              {
+                "type": "paragraph",
+                "direction": "ltr",
+                "format": "",
+                "indent": 0,
+                "children": [
+                  {
+                    "type": "text",
+                    "detail": 0,
+                    "format": 0,
+                    "mode": "normal",
+                    "style": "",
+                    "text": "Yes, Maxol has a loyalty app for our customers with great offers in-store and digital loyalty for ROSA Coffee and car wash. ",
+                    "version": 1
+                  },
+                  {
+                    "type": "link",
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "rel": "noopener",
+                    "url": "/maxol-loyalty",
+                    "children": [
+                      {
+                        "type": "text",
+                        "detail": 0,
+                        "format": 0,
+                        "mode": "normal",
+                        "style": "",
+                        "text": "Click here",
+                        "version": 1
+                      }
+                    ],
+                    "version": 1
+                  },
+                  {
+                    "type": "text",
+                    "detail": 0,
+                    "format": 0,
+                    "mode": "normal",
+                    "style": "",
+                    "text": " [link to loyalty page] to learn more or ",
+                    "version": 1
+                  },
+                  {
+                    "type": "link",
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "rel": "noopener",
+                    "url": "/loyalty-app-terms-and-conditions",
+                    "children": [
+                      {
+                        "type": "text",
+                        "detail": 0,
+                        "format": 0,
+                        "mode": "normal",
+                        "style": "",
+                        "text": "here to visit our loyalty FAQ's",
+                        "version": 1
+                      }
+                    ],
+                    "version": 1
+                  },
+                  {
+                    "type": "text",
+                    "detail": 0,
+                    "format": 0,
+                    "mode": "normal",
+                    "style": "",
+                    "text": ".",
+                    "version": 1
+                  }
+                ],
+                "version": 1
+              }
+            ],
+            "version": 1
+          }
+        }
+      },
+      "question": "Does Maxol have a loyalty App",
+      "name": "Does Maxol have a loyalty App",
+      "c_faqsCategory": [
+        "Loyalty"
+      ],
+      "uid": "1024833185"
+    },
+    "highlightedFields": {}
+  },
+  {
+    "data": {
+      "id": "faq_19",
+      "type": "ce_searchFaqs",
+      "answerV2": {
+        "json": {
+          "root": {
+            "type": "root",
+            "direction": "ltr",
+            "format": "",
+            "indent": 0,
+            "children": [
+              {
+                "type": "paragraph",
+                "direction": "ltr",
+                "format": "",
+                "indent": 0,
+                "children": [
+                  {
+                    "type": "text",
+                    "detail": 0,
+                    "format": 0,
+                    "mode": "normal",
+                    "style": "",
+                    "text": "Yes, at Maxol we offer every 6th ROSA Coffee free when you buy 5 through our digital loyalty programme in app ",
+                    "version": 1
+                  },
+                  {
+                    "type": "link",
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "rel": "noopener",
+                    "url": "/maxol-loyalty",
+                    "children": [
+                      {
+                        "type": "text",
+                        "detail": 0,
+                        "format": 0,
+                        "mode": "normal",
+                        "style": "",
+                        "text": "Click here",
+                        "version": 1
+                      }
+                    ],
+                    "version": 1
+                  },
+                  {
+                    "type": "text",
+                    "detail": 0,
+                    "format": 0,
+                    "mode": "normal",
+                    "style": "",
+                    "text": " to download the app.",
+                    "version": 1
+                  }
+                ],
+                "version": 1
+              }
+            ],
+            "version": 1
+          }
+        }
+      },
+      "question": "Does Maxol have a coffee loyalty programme?",
+      "name": "Does Maxol have a coffee loyalty programme?",
+      "c_faqsCategory": [
+        "Loyalty"
+      ],
+      "uid": "1024833186"
+    },
+    "highlightedFields": {}
+  },
+  {
+    "data": {
+      "id": "faq_20",
+      "type": "ce_searchFaqs",
+      "answerV2": {
+        "json": {
+          "root": {
+            "type": "root",
+            "direction": "ltr",
+            "format": "",
+            "indent": 0,
+            "children": [
+              {
+                "type": "paragraph",
+                "direction": "ltr",
+                "format": "",
+                "indent": 0,
+                "children": [
+                  {
+                    "type": "text",
+                    "detail": 0,
+                    "format": 0,
+                    "mode": "normal",
+                    "style": "",
+                    "text": "Yes, at Maxol we offer every 5th Car wash free when you buy 4 through our digital loyalty programme in app.  ",
+                    "version": 1
+                  },
+                  {
+                    "type": "link",
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "rel": "noopener",
+                    "url": "/maxol-loyalty",
+                    "children": [
+                      {
+                        "type": "text",
+                        "detail": 0,
+                        "format": 0,
+                        "mode": "normal",
+                        "style": "",
+                        "text": "Click here",
+                        "version": 1
+                      }
+                    ],
+                    "version": 1
+                  },
+                  {
+                    "type": "text",
+                    "detail": 0,
+                    "format": 0,
+                    "mode": "normal",
+                    "style": "",
+                    "text": " to download the app.",
+                    "version": 1
+                  }
+                ],
+                "version": 1
+              }
+            ],
+            "version": 1
+          }
+        }
+      },
+      "question": "Does Maxol have a car wash loyalty programme?",
+      "name": "Does Maxol have a car wash loyalty programme?",
+      "c_faqsCategory": [
+        "Loyalty"
+      ],
+      "uid": "1024833187"
+    },
+    "highlightedFields": {}
+  },
+  {
+    "data": {
+      "id": "faq_21",
+      "type": "ce_searchFaqs",
+      "answerV2": {
+        "json": {
+          "root": {
+            "type": "root",
+            "direction": "ltr",
+            "format": "",
+            "indent": 0,
+            "children": [
+              {
+                "type": "paragraph",
+                "direction": "ltr",
+                "format": "",
+                "indent": 0,
+                "children": [
+                  {
+                    "type": "text",
+                    "detail": 0,
+                    "format": 0,
+                    "mode": "normal",
+                    "style": "",
+                    "text": "FuelPay is a quick and convenient way to pay for fuel while in our Loyalty App in your car. Fuel Pay instructions can be found in the app by clicking on the fuelpay icon on the home page or ",
+                    "version": 1
+                  },
+                  {
+                    "type": "link",
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "rel": "noopener",
+                    "url": "/maxol-loyalty",
+                    "children": [
+                      {
+                        "type": "text",
+                        "detail": 0,
+                        "format": 0,
+                        "mode": "normal",
+                        "style": "",
+                        "text": "click here",
+                        "version": 1
+                      }
+                    ],
+                    "version": 1
+                  },
+                  {
+                    "type": "text",
+                    "detail": 0,
+                    "format": 0,
+                    "mode": "normal",
+                    "style": "",
+                    "text": " to learn more. ",
+                    "version": 1
+                  }
+                ],
+                "version": 1
+              }
+            ],
+            "version": 1
+          }
+        }
+      },
+      "question": "What is Fuel Pay at Maxol?",
+      "name": "What is Fuel Pay at Maxol?",
+      "c_faqsCategory": [
+        "Loyalty"
+      ],
+      "uid": "1024833188"
+    },
+    "highlightedFields": {}
+  },
+  {
+    "data": {
+      "id": "faq_22",
+      "type": "ce_searchFaqs",
+      "answerV2": {
+        "json": {
+          "root": {
+            "type": "root",
+            "direction": "ltr",
+            "format": "",
+            "indent": 0,
+            "children": [
+              {
+                "type": "paragraph",
+                "direction": "ltr",
+                "format": "",
+                "indent": 0,
+                "children": [
+                  {
+                    "type": "text",
+                    "detail": 0,
+                    "format": 0,
+                    "mode": "normal",
+                    "style": "",
+                    "text": "The Maxol Loyalty App is our new app that is packed with benefits and rewards for customers. The app includes great offers in-store along with digital loyalty cards for ROSA Coffee and Car Wash. Plus, this is the only app in Ireland that offers FuelPay, the easier way to pay for fuel.    ",
+                    "version": 1
+                  },
+                  {
+                    "type": "linebreak",
+                    "version": 1
+                  },
+                  {
+                    "type": "text",
+                    "detail": 0,
+                    "format": 0,
+                    "mode": "normal",
+                    "style": "",
+                    "text": "Key Benefits:  ",
+                    "version": 1
+                  },
+                  {
+                    "type": "linebreak",
+                    "version": 1
+                  },
+                  {
+                    "type": "text",
+                    "detail": 0,
+                    "format": 0,
+                    "mode": "normal",
+                    "style": "",
+                    "text": "- FuelPay ",
+                    "version": 1
+                  },
+                  {
+                    "type": "linebreak",
+                    "version": 1
+                  },
+                  {
+                    "type": "text",
+                    "detail": 0,
+                    "format": 0,
+                    "mode": "normal",
+                    "style": "",
+                    "text": "- Engine Oil Advisor  ",
+                    "version": 1
+                  },
+                  {
+                    "type": "linebreak",
+                    "version": 1
+                  },
+                  {
+                    "type": "text",
+                    "detail": 0,
+                    "format": 0,
+                    "mode": "normal",
+                    "style": "",
+                    "text": "- Great Offers and Rewards  ",
+                    "version": 1
+                  },
+                  {
+                    "type": "linebreak",
+                    "version": 1
+                  },
+                  {
+                    "type": "text",
+                    "detail": 0,
+                    "format": 0,
+                    "mode": "normal",
+                    "style": "",
+                    "text": "- ROSA Coffee - buy 5 get 1 free  ",
+                    "version": 1
+                  },
+                  {
+                    "type": "linebreak",
+                    "version": 1
+                  },
+                  {
+                    "type": "text",
+                    "detail": 0,
+                    "format": 0,
+                    "mode": "normal",
+                    "style": "",
+                    "text": "- Car wash ",
+                    "version": 1
+                  },
+                  {
+                    "type": "linebreak",
+                    "version": 1
+                  },
+                  {
+                    "type": "text",
+                    "detail": 0,
+                    "format": 0,
+                    "mode": "normal",
+                    "style": "",
+                    "text": "- Buy 4 get 1 free  ",
+                    "version": 1
+                  },
+                  {
+                    "type": "linebreak",
+                    "version": 1
+                  },
+                  {
+                    "type": "text",
+                    "detail": 0,
+                    "format": 0,
+                    "mode": "normal",
+                    "style": "",
+                    "text": "- Free birthday treat  ",
+                    "version": 1
+                  },
+                  {
+                    "type": "linebreak",
+                    "version": 1
+                  },
+                  {
+                    "type": "text",
+                    "detail": 0,
+                    "format": 0,
+                    "mode": "normal",
+                    "style": "",
+                    "text": "- Free coffee when you sign-up  ",
+                    "version": 1
+                  },
+                  {
+                    "type": "linebreak",
+                    "version": 1
+                  },
+                  {
+                    "type": "text",
+                    "detail": 0,
+                    "format": 0,
+                    "mode": "normal",
+                    "style": "",
+                    "text": "- Station Finder",
+                    "version": 1
+                  }
+                ],
+                "version": 1
+              }
+            ],
+            "version": 1
+          }
+        }
+      },
+      "question": "What is the Maxol Loyalty App?",
+      "name": "What is the Maxol Loyalty App?",
+      "c_faqsCategory": [
+        "Loyalty"
+      ],
+      "uid": "1024833189"
+    },
+    "highlightedFields": {}
+  },
+  {
+    "data": {
+      "id": "faq_23",
+      "type": "ce_searchFaqs",
+      "answerV2": {
+        "json": {
+          "root": {
+            "type": "root",
+            "direction": "ltr",
+            "format": "",
+            "indent": 0,
+            "children": [
+              {
+                "type": "paragraph",
+                "direction": "ltr",
+                "format": "",
+                "indent": 0,
+                "children": [
+                  {
+                    "type": "text",
+                    "detail": 0,
+                    "format": 0,
+                    "mode": "normal",
+                    "style": "",
+                    "text": "Yes, the app is designed for both iOS and Android phones. Just go to your app store and download.",
+                    "version": 1
+                  }
+                ],
+                "version": 1
+              }
+            ],
+            "version": 1
+          }
+        }
+      },
+      "question": "Can I download the App to any phone?",
+      "name": "Can I download the App to any phone?",
+      "c_faqsCategory": [
+        "Loyalty"
+      ],
+      "uid": "1024833190"
+    },
+    "highlightedFields": {}
+  },
+  {
+    "data": {
+      "id": "faq_24",
+      "type": "ce_searchFaqs",
+      "answerV2": {
+        "json": {
+          "root": {
+            "type": "root",
+            "direction": "ltr",
+            "format": "",
+            "indent": 0,
+            "children": [
+              {
+                "type": "paragraph",
+                "direction": "ltr",
+                "format": "",
+                "indent": 0,
+                "children": [
+                  {
+                    "type": "text",
+                    "detail": 0,
+                    "format": 0,
+                    "mode": "normal",
+                    "style": "",
+                    "text": "Yes, download the Maxol Loyalty app to your phone and follow the registration steps to enter your details.",
+                    "version": 1
+                  },
+                  {
+                    "type": "linebreak",
+                    "version": 1
+                  }
+                ],
+                "version": 1
+              }
+            ],
+            "version": 1
+          }
+        }
+      },
+      "question": "Do I need to register to use the App?",
+      "name": "Do I need to register to use the App?",
+      "c_faqsCategory": [
+        "Loyalty"
+      ],
+      "uid": "1024833191"
+    },
+    "highlightedFields": {}
+  },
+  {
+    "data": {
+      "id": "faq_25",
+      "type": "ce_searchFaqs",
+      "answerV2": {
+        "json": {
+          "root": {
+            "type": "root",
+            "direction": "ltr",
+            "format": "",
+            "indent": 0,
+            "children": [
+              {
+                "type": "paragraph",
+                "direction": "ltr",
+                "format": "",
+                "indent": 0,
+                "children": [
+                  {
+                    "type": "text",
+                    "detail": 0,
+                    "format": 0,
+                    "mode": "normal",
+                    "style": "",
+                    "text": "The only information required initially is your mobile number. Please ensure you drop the 0 at the start of your mobile number when entering it.",
+                    "version": 1
+                  },
+                  {
+                    "type": "linebreak",
+                    "version": 1
+                  }
+                ],
+                "version": 1
+              }
+            ],
+            "version": 1
+          }
+        }
+      },
+      "question": "What details are required to register?",
+      "name": "What details are required to register?",
+      "c_faqsCategory": [
+        "Loyalty"
+      ],
+      "uid": "1024833192"
+    },
+    "highlightedFields": {}
+  },
+  {
+    "data": {
+      "id": "faq_26",
+      "type": "ce_searchFaqs",
+      "answerV2": {
+        "json": {
+          "root": {
+            "type": "root",
+            "direction": "ltr",
+            "format": "",
+            "indent": 0,
+            "children": [
+              {
+                "type": "paragraph",
+                "direction": "ltr",
+                "format": "",
+                "indent": 0,
+                "children": [
+                  {
+                    "type": "text",
+                    "detail": 0,
+                    "format": 0,
+                    "mode": "normal",
+                    "style": "",
+                    "text": "Please ensure you drop the 0 at the start of your mobile number when entering it.",
+                    "version": 1
+                  }
+                ],
+                "version": 1
+              }
+            ],
+            "version": 1
+          }
+        }
+      },
+      "question": "Why have I received an invalid mobile number message when registering?",
+      "name": "Why have I received an invalid mobile number message when registering?",
+      "c_faqsCategory": [
+        "Loyalty"
+      ],
+      "uid": "1024833211"
+    },
+    "highlightedFields": {}
+  },
+  {
+    "data": {
+      "id": "faq_27",
+      "type": "ce_searchFaqs",
+      "answerV2": {
+        "json": {
+          "root": {
+            "type": "root",
+            "direction": "ltr",
+            "format": "",
+            "indent": 0,
+            "children": [
+              {
+                "type": "paragraph",
+                "direction": "ltr",
+                "format": "",
+                "indent": 0,
+                "children": [
+                  {
+                    "type": "text",
+                    "detail": 0,
+                    "format": 0,
+                    "mode": "normal",
+                    "style": "",
+                    "text": "If you don\u2019t receive the verification code, you can request in app to resend the code and it will be sent to your phone.",
+                    "version": 1
+                  },
+                  {
+                    "type": "linebreak",
+                    "version": 1
+                  }
+                ],
+                "version": 1
+              }
+            ],
+            "version": 1
+          }
+        }
+      },
+      "question": "I never received my verification code?",
+      "name": "I never received my verification code?",
+      "c_faqsCategory": [
+        "Loyalty"
+      ],
+      "uid": "1024833224"
+    },
+    "highlightedFields": {}
+  },
+  {
+    "data": {
+      "id": "faq_28",
+      "type": "ce_searchFaqs",
+      "answerV2": {
+        "json": {
+          "root": {
+            "type": "root",
+            "direction": "ltr",
+            "format": "",
+            "indent": 0,
+            "children": [
+              {
+                "type": "paragraph",
+                "direction": "ltr",
+                "format": "",
+                "indent": 0,
+                "children": [
+                  {
+                    "type": "text",
+                    "detail": 0,
+                    "format": 0,
+                    "mode": "normal",
+                    "style": "",
+                    "text": "A gold star is awarded when you spend \u20ac5 in-store* and \u20ac30 or more on fuel**  *The following categories are excluded, agency, cigarettes, lottery, baby products and alcohol. **One gold star is awarded per fuel transaction of \u20ac30 or more. Multiple gold stars are not awarded on fuel purchases.",
+                    "version": 1
+                  },
+                  {
+                    "type": "linebreak",
+                    "version": 1
+                  }
+                ],
+                "version": 1
+              }
+            ],
+            "version": 1
+          }
+        }
+      },
+      "question": "How do I earn stars?",
+      "name": "How do I earn stars?",
+      "c_faqsCategory": [
+        "Loyalty"
+      ],
+      "uid": "1024833225"
+    },
+    "highlightedFields": {}
+  },
+  {
+    "data": {
+      "id": "faq_29",
+      "type": "ce_searchFaqs",
+      "answerV2": {
+        "json": {
+          "root": {
+            "type": "root",
+            "direction": "ltr",
+            "format": "",
+            "indent": 0,
+            "children": [
+              {
+                "type": "paragraph",
+                "direction": "ltr",
+                "format": "",
+                "indent": 0,
+                "children": [
+                  {
+                    "type": "text",
+                    "detail": 0,
+                    "format": 0,
+                    "mode": "normal",
+                    "style": "",
+                    "text": "To become a gold member, simply earn 10 gold stars in 90 days.",
+                    "version": 1
+                  }
+                ],
+                "version": 1
+              }
+            ],
+            "version": 1
+          }
+        }
+      },
+      "question": "How do I become a gold member?",
+      "name": "How do I become a gold member?",
+      "c_faqsCategory": [
+        "Loyalty"
+      ],
+      "uid": "1024833242"
+    },
+    "highlightedFields": {}
+  },
+  {
+    "data": {
+      "id": "faq_30",
+      "type": "ce_searchFaqs",
+      "answerV2": {
+        "json": {
+          "root": {
+            "type": "root",
+            "direction": "ltr",
+            "format": "",
+            "indent": 0,
+            "children": [
+              {
+                "type": "paragraph",
+                "direction": "ltr",
+                "format": "",
+                "indent": 0,
+                "children": [
+                  {
+                    "type": "text",
+                    "detail": 0,
+                    "format": 0,
+                    "mode": "normal",
+                    "style": "",
+                    "text": "To check the number of gold stars earned, simply visit the home page in the app. The number of stars earned out of 10 is displayed on the top right hand corner.",
+                    "version": 1
+                  },
+                  {
+                    "type": "linebreak",
+                    "version": 1
+                  }
+                ],
+                "version": 1
+              }
+            ],
+            "version": 1
+          }
+        }
+      },
+      "question": "How can I check my gold stars",
+      "name": "How can I check my gold stars",
+      "c_faqsCategory": [
+        "Loyalty"
+      ],
+      "uid": "1024833243"
+    },
+    "highlightedFields": {}
+  },
+  {
+    "data": {
+      "id": "faq_31",
+      "type": "ce_searchFaqs",
+      "answerV2": {
+        "json": {
+          "root": {
+            "type": "root",
+            "direction": "ltr",
+            "format": "",
+            "indent": 0,
+            "children": [
+              {
+                "type": "paragraph",
+                "direction": "ltr",
+                "format": "",
+                "indent": 0,
+                "children": [
+                  {
+                    "type": "text",
+                    "detail": 0,
+                    "format": 0,
+                    "mode": "normal",
+                    "style": "",
+                    "text": "For being a Maxol Loyalty member, you will benefit from special offers on specific products every month.",
+                    "version": 1
+                  },
+                  {
+                    "type": "linebreak",
+                    "version": 1
+                  }
+                ],
+                "version": 1
+              }
+            ],
+            "version": 1
+          }
+        }
+      },
+      "question": "Offers - What are the offers?",
+      "name": "Offers - What are the offers?",
+      "c_faqsCategory": [
+        "Loyalty"
+      ],
+      "uid": "1024833247"
+    },
+    "highlightedFields": {}
+  },
+  {
+    "data": {
+      "id": "faq_32",
+      "type": "ce_searchFaqs",
+      "answerV2": {
+        "json": {
+          "root": {
+            "type": "root",
+            "direction": "ltr",
+            "format": "",
+            "indent": 0,
+            "children": [
+              {
+                "type": "paragraph",
+                "direction": "ltr",
+                "format": "",
+                "indent": 0,
+                "children": [
+                  {
+                    "type": "text",
+                    "detail": 0,
+                    "format": 0,
+                    "mode": "normal",
+                    "style": "",
+                    "text": "Offers can be checked by viewing the \u2018Offers\u2019 section in the menu at bottom of the screen in the App and once activated can be redeemed in-store.",
+                    "version": 1
+                  },
+                  {
+                    "type": "linebreak",
+                    "version": 1
+                  }
+                ],
+                "version": 1
+              }
+            ],
+            "version": 1
+          }
+        }
+      },
+      "question": "How can I check/redeem my offers?",
+      "name": "How can I check/redeem my offers?",
+      "c_faqsCategory": [
+        "Loyalty"
+      ],
+      "uid": "1024833250"
+    },
+    "highlightedFields": {}
+  },
+  {
+    "data": {
+      "id": "faq_33",
+      "type": "ce_searchFaqs",
+      "answerV2": {
+        "json": {
+          "root": {
+            "type": "root",
+            "direction": "ltr",
+            "format": "",
+            "indent": 0,
+            "children": [
+              {
+                "type": "paragraph",
+                "direction": "ltr",
+                "format": "",
+                "indent": 0,
+                "children": [
+                  {
+                    "type": "text",
+                    "detail": 0,
+                    "format": 0,
+                    "mode": "normal",
+                    "style": "",
+                    "text": "For being a Maxol Loyalty member, you will receive rewards such as a Free ROSA Coffee on signup, a birthday treat. Other rewards include a free ROSA coffee when you buy 6 and a free car wash when you buy 4. All you need to do to receive rewards is scan the app in-store when making any purchases and relevant rewards will be sent to the app for future use.",
+                    "version": 1
+                  },
+                  {
+                    "type": "linebreak",
+                    "version": 1
+                  }
+                ],
+                "version": 1
+              }
+            ],
+            "version": 1
+          }
+        }
+      },
+      "question": "Rewards - What are the rewards?",
+      "name": "Rewards - What are the rewards?",
+      "c_faqsCategory": [
+        "Loyalty"
+      ],
+      "uid": "1024833258"
+    },
+    "highlightedFields": {}
+  },
+  {
+    "data": {
+      "id": "faq_34",
+      "type": "ce_searchFaqs",
+      "answerV2": {
+        "json": {
+          "root": {
+            "type": "root",
+            "direction": "ltr",
+            "format": "",
+            "indent": 0,
+            "children": [
+              {
+                "type": "paragraph",
+                "direction": "ltr",
+                "format": "",
+                "indent": 0,
+                "children": [
+                  {
+                    "type": "text",
+                    "detail": 0,
+                    "format": 0,
+                    "mode": "normal",
+                    "style": "",
+                    "text": "Rewards can be checked by viewing the \u2018Rewards\u2019 section in the menu at bottom of the screen in the app and once activated can be redeemed in-store.",
+                    "version": 1
+                  },
+                  {
+                    "type": "linebreak",
+                    "version": 1
+                  }
+                ],
+                "version": 1
+              }
+            ],
+            "version": 1
+          }
+        }
+      },
+      "question": "How can I check/redeem my rewards?",
+      "name": "How can I check/redeem my rewards?",
+      "c_faqsCategory": [
+        "Loyalty"
+      ],
+      "uid": "1024833344"
+    },
+    "highlightedFields": {}
+  },
+  {
+    "data": {
+      "id": "faq_35",
+      "type": "ce_searchFaqs",
+      "answerV2": {
+        "json": {
+          "root": {
+            "type": "root",
+            "direction": "ltr",
+            "format": "",
+            "indent": 0,
+            "children": [
+              {
+                "type": "paragraph",
+                "direction": "ltr",
+                "format": "",
+                "indent": 0,
+                "children": [
+                  {
+                    "type": "text",
+                    "detail": 0,
+                    "format": 0,
+                    "mode": "normal",
+                    "style": "",
+                    "text": "A digital stamp is earned every time you purchase any ROSA Coffee & scan your digital loyalty card at the till. When you purchase 5 coffees, you will receive a rewards voucher for the 6th coffee free. You can check the number of stamps collected by clicking on ROSA Coffee Loyalty on the home page of the app.",
+                    "version": 1
+                  },
+                  {
+                    "type": "linebreak",
+                    "version": 1
+                  }
+                ],
+                "version": 1
+              }
+            ],
+            "version": 1
+          }
+        }
+      },
+      "question": "How do I earn coffee loyalty stamps?",
+      "name": "How do I earn coffee loyalty stamps?",
+      "c_faqsCategory": [
+        "Loyalty"
+      ],
+      "uid": "1024833351"
+    },
+    "highlightedFields": {}
+  },
+  {
+    "data": {
+      "id": "faq_36",
+      "type": "ce_searchFaqs",
+      "answerV2": {
+        "json": {
+          "root": {
+            "type": "root",
+            "direction": "ltr",
+            "format": "",
+            "indent": 0,
+            "children": [
+              {
+                "type": "paragraph",
+                "direction": "ltr",
+                "format": "",
+                "indent": 0,
+                "children": [
+                  {
+                    "type": "text",
+                    "detail": 0,
+                    "format": 0,
+                    "mode": "normal",
+                    "style": "",
+                    "text": "A digital stamp is earned every time you purchase any car wash & scan your digital loyalty card at the till. When you purchase 4 car washes, you will receive a rewards voucher for the 5th wash free. The free car wash is the Ultimate top wash. You can check the number of stamps collected by clicking on Car Wash Loyalty on the home page of the app.",
+                    "version": 1
+                  },
+                  {
+                    "type": "linebreak",
+                    "version": 1
+                  }
+                ],
+                "version": 1
+              }
+            ],
+            "version": 1
+          }
+        }
+      },
+      "question": "How do I earn car wash loyalty stamps?",
+      "name": "How do I earn car wash loyalty stamps?",
+      "c_faqsCategory": [
+        "Loyalty"
+      ],
+      "uid": "1024833352"
+    },
+    "highlightedFields": {}
+  },
+  {
+    "data": {
+      "id": "faq_37",
+      "type": "ce_searchFaqs",
+      "answerV2": {
+        "json": {
+          "root": {
+            "type": "root",
+            "direction": "ltr",
+            "format": "",
+            "indent": 0,
+            "children": [
+              {
+                "type": "paragraph",
+                "direction": "ltr",
+                "format": "",
+                "indent": 0,
+                "children": [
+                  {
+                    "type": "text",
+                    "detail": 0,
+                    "format": 0,
+                    "mode": "normal",
+                    "style": "",
+                    "text": "No, the Maxol app is the main communication tool for the loyalty programme and all stamps will be visible in the app. You no longer will need a printed loyalty card.",
+                    "version": 1
+                  },
+                  {
+                    "type": "linebreak",
+                    "version": 1
+                  }
+                ],
+                "version": 1
+              }
+            ],
+            "version": 1
+          }
+        }
+      },
+      "question": "If I have the Maxol app, do I need a printed loyalty card as well?",
+      "name": "If I have the Maxol app, do I need a printed loyalty card as well?",
+      "c_faqsCategory": [
+        "Loyalty"
+      ],
+      "uid": "1024833353"
+    },
+    "highlightedFields": {}
+  },
+  {
+    "data": {
+      "id": "faq_38",
+      "type": "ce_searchFaqs",
+      "answerV2": {
+        "json": {
+          "root": {
+            "type": "root",
+            "direction": "ltr",
+            "format": "",
+            "indent": 0,
+            "children": [
+              {
+                "type": "paragraph",
+                "direction": "ltr",
+                "format": "",
+                "indent": 0,
+                "children": [
+                  {
+                    "type": "text",
+                    "detail": 0,
+                    "format": 0,
+                    "mode": "normal",
+                    "style": "",
+                    "text": "Paper based loyalty cards will be accepted until July 31st 2022. After this date they will be invalid and no longer accepted instore.",
+                    "version": 1
+                  },
+                  {
+                    "type": "linebreak",
+                    "version": 1
+                  }
+                ],
+                "version": 1
+              }
+            ],
+            "version": 1
+          }
+        }
+      },
+      "question": "What happens to my current paper loyalty card?",
+      "name": "What happens to my current paper loyalty card?",
+      "c_faqsCategory": [
+        "Loyalty"
+      ],
+      "uid": "1024833355"
+    },
+    "highlightedFields": {}
+  },
+  {
+    "data": {
+      "id": "faq_39",
+      "type": "ce_searchFaqs",
+      "answerV2": {
+        "json": {
+          "root": {
+            "type": "root",
+            "direction": "ltr",
+            "format": "",
+            "indent": 0,
+            "children": [
+              {
+                "type": "paragraph",
+                "direction": "ltr",
+                "format": "",
+                "indent": 0,
+                "children": [
+                  {
+                    "type": "text",
+                    "detail": 0,
+                    "format": 0,
+                    "mode": "normal",
+                    "style": "",
+                    "text": "It is important to check your digital loyalty card to make sure stamps are applied at the time of purchase. If no stamp was applied, please contact our customer service team who will be happy to help.",
+                    "version": 1
+                  },
+                  {
+                    "type": "linebreak",
+                    "version": 1
+                  }
+                ],
+                "version": 1
+              }
+            ],
+            "version": 1
+          }
+        }
+      },
+      "question": "My loyalty stamp has not been applied - what do I do?",
+      "name": "My loyalty stamp has not been applied - what do I do?",
+      "c_faqsCategory": [
+        "Loyalty"
+      ],
+      "uid": "1024833357"
+    },
+    "highlightedFields": {}
+  },
+  {
+    "data": {
+      "id": "faq_40",
+      "type": "ce_searchFaqs",
+      "answerV2": {
+        "json": {
+          "root": {
+            "type": "root",
+            "direction": "ltr",
+            "format": "",
+            "indent": 0,
+            "children": [
+              {
+                "type": "paragraph",
+                "direction": "ltr",
+                "format": "",
+                "indent": 0,
+                "children": [
+                  {
+                    "type": "text",
+                    "detail": 0,
+                    "format": 0,
+                    "mode": "normal",
+                    "style": "",
+                    "text": "In order to use a coupon or a voucher that you have in your app, you must activate it before you get to the till for scanning. You will find an activation button at the bottom of each coupon or voucher.",
+                    "version": 1
+                  },
+                  {
+                    "type": "linebreak",
+                    "version": 1
+                  }
+                ],
+                "version": 1
+              }
+            ],
+            "version": 1
+          }
+        }
+      },
+      "question": "How do I activate my rewards & offers?",
+      "name": "How do I activate my rewards & offers?",
+      "c_faqsCategory": [
+        "Loyalty"
+      ],
+      "uid": "1024833754"
+    },
+    "highlightedFields": {}
+  },
+  {
+    "data": {
+      "id": "faq_41",
+      "type": "ce_searchFaqs",
+      "answerV2": {
+        "json": {
+          "root": {
+            "type": "root",
+            "direction": "ltr",
+            "format": "",
+            "indent": 0,
+            "children": [
+              {
+                "type": "paragraph",
+                "direction": "ltr",
+                "format": "",
+                "indent": 0,
+                "children": [
+                  {
+                    "type": "text",
+                    "detail": 0,
+                    "format": 0,
+                    "mode": "normal",
+                    "style": "",
+                    "text": "It is important to check the expiry date on any coupons or vouchers issued to ensure it is used within the validity period. If a coupon or voucher has disappeared from the app it has then expired and cannot be viewed or reissued.",
+                    "version": 1
+                  },
+                  {
+                    "type": "linebreak",
+                    "version": 1
+                  }
+                ],
+                "version": 1
+              }
+            ],
+            "version": 1
+          }
+        }
+      },
+      "question": "My coupon or voucher has disappeared in the App - where can I view it?",
+      "name": "My coupon or voucher has disappeared in the App - where can I view it?",
+      "c_faqsCategory": [
+        "Loyalty"
+      ],
+      "uid": "1024834372"
+    },
+    "highlightedFields": {}
+  },
+  {
+    "data": {
+      "id": "faq_42",
+      "type": "ce_searchFaqs",
+      "answerV2": {
+        "json": {
+          "root": {
+            "type": "root",
+            "direction": "ltr",
+            "format": "",
+            "indent": 0,
+            "children": [
+              {
+                "type": "paragraph",
+                "direction": "ltr",
+                "format": "",
+                "indent": 0,
+                "children": [
+                  {
+                    "type": "text",
+                    "detail": 0,
+                    "format": 0,
+                    "mode": "normal",
+                    "style": "",
+                    "text": "FuelPay is a quick and convenient way to pay for fuel while in the App in your car. Fuel Pay instructions can be found in the app by clicking on the fuelpay icon on the home page.",
+                    "version": 1
+                  },
+                  {
+                    "type": "linebreak",
+                    "version": 1
+                  },
+                  {
+                    "type": "text",
+                    "detail": 0,
+                    "format": 0,
+                    "mode": "normal",
+                    "style": "",
+                    "text": "Instructions:",
+                    "version": 1
+                  },
+                  {
+                    "type": "linebreak",
+                    "version": 1
+                  },
+                  {
+                    "type": "text",
+                    "detail": 0,
+                    "format": 0,
+                    "mode": "normal",
+                    "style": "",
+                    "text": "1. Ensure Location Services is turned on.  ",
+                    "version": 1
+                  },
+                  {
+                    "type": "linebreak",
+                    "version": 1
+                  },
+                  {
+                    "type": "text",
+                    "detail": 0,
+                    "format": 0,
+                    "mode": "normal",
+                    "style": "",
+                    "text": "2. Confirm you are at the correct Maxol Service Station.  ",
+                    "version": 1
+                  },
+                  {
+                    "type": "linebreak",
+                    "version": 1
+                  },
+                  {
+                    "type": "text",
+                    "detail": 0,
+                    "format": 0,
+                    "mode": "normal",
+                    "style": "",
+                    "text": "3. Please enter the 4-digit code which you will see at the pump e.g. 0101.  ",
+                    "version": 1
+                  },
+                  {
+                    "type": "linebreak",
+                    "version": 1
+                  },
+                  {
+                    "type": "text",
+                    "detail": 0,
+                    "format": 0,
+                    "mode": "normal",
+                    "style": "",
+                    "text": "4. Please choose the fuel type and press confirm.  ",
+                    "version": 1
+                  },
+                  {
+                    "type": "linebreak",
+                    "version": 1
+                  },
+                  {
+                    "type": "text",
+                    "detail": 0,
+                    "format": 0,
+                    "mode": "normal",
+                    "style": "",
+                    "text": "5. Please choose the amount you want to spend and press confirm e.g. \u20ac20.  ",
+                    "version": 1
+                  },
+                  {
+                    "type": "linebreak",
+                    "version": 1
+                  },
+                  {
+                    "type": "text",
+                    "detail": 0,
+                    "format": 0,
+                    "mode": "normal",
+                    "style": "",
+                    "text": "6. Please choose your payment method and press confirm - credit/debit card.  ",
+                    "version": 1
+                  },
+                  {
+                    "type": "linebreak",
+                    "version": 1
+                  },
+                  {
+                    "type": "text",
+                    "detail": 0,
+                    "format": 0,
+                    "mode": "normal",
+                    "style": "",
+                    "text": "7. Please enter car payment details and press confirm.  ",
+                    "version": 1
+                  },
+                  {
+                    "type": "linebreak",
+                    "version": 1
+                  },
+                  {
+                    "type": "text",
+                    "detail": 0,
+                    "format": 0,
+                    "mode": "normal",
+                    "style": "",
+                    "text": "8. Your Purchase has been successful and you receipt in available on My Page - Receipts in the \"More\" section in the menu at the bottom of the App.  ",
+                    "version": 1
+                  },
+                  {
+                    "type": "linebreak",
+                    "version": 1
+                  },
+                  {
+                    "type": "text",
+                    "detail": 0,
+                    "format": 0,
+                    "mode": "normal",
+                    "style": "",
+                    "text": "9. The pump will be released and you are ready to fill up.",
+                    "version": 1
+                  },
+                  {
+                    "type": "linebreak",
+                    "version": 1
+                  },
+                  {
+                    "type": "text",
+                    "detail": 0,
+                    "format": 0,
+                    "mode": "normal",
+                    "style": "",
+                    "text": "Please do not use your mobile phone on the forecourt while the pump is in operation.",
+                    "version": 1
+                  }
+                ],
+                "version": 1
+              }
+            ],
+            "version": 1
+          }
+        }
+      },
+      "question": "How does FuelPay work?",
+      "name": "How does FuelPay work?",
+      "c_faqsCategory": [
+        "Loyalty"
+      ],
+      "uid": "1024834373"
+    },
+    "highlightedFields": {}
+  },
+  {
+    "data": {
+      "id": "faq_43",
+      "type": "ce_searchFaqs",
+      "answerV2": {
+        "json": {
+          "root": {
+            "type": "root",
+            "direction": "ltr",
+            "format": "",
+            "indent": 0,
+            "children": [
+              {
+                "type": "paragraph",
+                "direction": "ltr",
+                "format": "",
+                "indent": 0,
+                "children": [
+                  {
+                    "type": "text",
+                    "detail": 0,
+                    "format": 0,
+                    "mode": "normal",
+                    "style": "",
+                    "text": "For FuelPay to work, access to location must be allowed while using the App. ",
+                    "version": 1
+                  },
+                  {
+                    "type": "linebreak",
+                    "version": 1
+                  },
+                  {
+                    "type": "text",
+                    "detail": 0,
+                    "format": 0,
+                    "mode": "normal",
+                    "style": "",
+                    "text": "Android 5.0, iOS 11.0 are the minimum versions needed where the geolocation location works.",
+                    "version": 1
+                  }
+                ],
+                "version": 1
+              }
+            ],
+            "version": 1
+          }
+        }
+      },
+      "question": "Why is FuelPay not working on my phone?",
+      "name": "Why is FuelPay not working on my phone?",
+      "c_faqsCategory": [
+        "Loyalty"
+      ],
+      "uid": "1024834374"
+    },
+    "highlightedFields": {}
+  },
+  {
+    "data": {
+      "id": "faq_44",
+      "type": "ce_searchFaqs",
+      "answerV2": {
+        "json": {
+          "root": {
+            "type": "root",
+            "direction": "ltr",
+            "format": "",
+            "indent": 0,
+            "children": [
+              {
+                "type": "paragraph",
+                "direction": "ltr",
+                "format": "",
+                "indent": 0,
+                "children": [
+                  {
+                    "type": "text",
+                    "detail": 0,
+                    "format": 0,
+                    "mode": "normal",
+                    "style": "",
+                    "text": "Once you have used FuelPay once and entered your payment card details, you can then go to the MyPage section and update your details there. All payment information is hashed and encrypted through our payment provider.",
+                    "version": 1
+                  },
+                  {
+                    "type": "linebreak",
+                    "version": 1
+                  }
+                ],
+                "version": 1
+              }
+            ],
+            "version": 1
+          }
+        }
+      },
+      "question": "Are my payment details stored in the app?",
+      "name": "Are my payment details stored in the app?",
+      "c_faqsCategory": [
+        "Loyalty"
+      ],
+      "uid": "1024834376"
+    },
+    "highlightedFields": {}
+  },
+  {
+    "data": {
+      "id": "faq_45",
+      "type": "ce_searchFaqs",
+      "answerV2": {
+        "json": {
+          "root": {
+            "type": "root",
+            "direction": "ltr",
+            "format": "",
+            "indent": 0,
+            "children": [
+              {
+                "type": "paragraph",
+                "direction": "ltr",
+                "format": "",
+                "indent": 0,
+                "children": [
+                  {
+                    "type": "text",
+                    "detail": 0,
+                    "format": 0,
+                    "mode": "normal",
+                    "style": "",
+                    "text": "You can find all digital receipts in the receipts section under My Page - Receipts in the \"More\" section in the menu at the bottom of the app. You don't need to do anything, we'll instantly save these for you after every shop.",
+                    "version": 1
+                  },
+                  {
+                    "type": "linebreak",
+                    "version": 1
+                  }
+                ],
+                "version": 1
+              }
+            ],
+            "version": 1
+          }
+        }
+      },
+      "question": "Where will I find my digital receipts?",
+      "name": "Where will I find my digital receipts?",
+      "c_faqsCategory": [
+        "Loyalty"
+      ],
+      "uid": "1024834377"
+    },
+    "highlightedFields": {}
+  },
+  {
+    "data": {
+      "id": "faq_46",
+      "type": "ce_searchFaqs",
+      "answerV2": {
+        "json": {
+          "root": {
+            "type": "root",
+            "direction": "ltr",
+            "format": "",
+            "indent": 0,
+            "children": [
+              {
+                "type": "paragraph",
+                "direction": "ltr",
+                "format": "",
+                "indent": 0,
+                "children": [
+                  {
+                    "type": "text",
+                    "detail": 0,
+                    "format": 0,
+                    "mode": "normal",
+                    "style": "",
+                    "text": "You can make changes to your personal details by clicking edit on the top right hand corner in the My Page section of the app. This can be found by clicking on the \"More\" section in the menu at the bottom of the screen.",
+                    "version": 1
+                  },
+                  {
+                    "type": "linebreak",
+                    "version": 1
+                  }
+                ],
+                "version": 1
+              }
+            ],
+            "version": 1
+          }
+        }
+      },
+      "question": "How can I change my personal details?",
+      "name": "How can I change my personal details?",
+      "c_faqsCategory": [
+        "Loyalty"
+      ],
+      "uid": "1024834378"
+    },
+    "highlightedFields": {}
+  },
+  {
+    "data": {
+      "id": "faq_47",
+      "type": "ce_searchFaqs",
+      "answerV2": {
+        "json": {
+          "root": {
+            "type": "root",
+            "direction": "ltr",
+            "format": "",
+            "indent": 0,
+            "children": [
+              {
+                "type": "paragraph",
+                "direction": "ltr",
+                "format": "",
+                "indent": 0,
+                "children": [
+                  {
+                    "type": "text",
+                    "detail": 0,
+                    "format": 0,
+                    "mode": "normal",
+                    "style": "",
+                    "text": "Once you have used FuelPay once and entered your payment card details, you can then go to the MyPage section and update your details there. All payment information is hashed and encrypted through our payment provider.",
+                    "version": 1
+                  },
+                  {
+                    "type": "linebreak",
+                    "version": 1
+                  }
+                ],
+                "version": 1
+              }
+            ],
+            "version": 1
+          }
+        }
+      },
+      "question": "How can I update my payment card details for FuelPay?",
+      "name": "How can I update my payment card details for FuelPay?",
+      "c_faqsCategory": [
+        "Loyalty"
+      ],
+      "uid": "1024834379"
+    },
+    "highlightedFields": {}
+  },
+  {
+    "data": {
+      "id": "faq_48",
+      "type": "ce_searchFaqs",
+      "answerV2": {
+        "json": {
+          "root": {
+            "type": "root",
+            "direction": "ltr",
+            "format": "",
+            "indent": 0,
+            "children": [
+              {
+                "type": "paragraph",
+                "direction": "ltr",
+                "format": "",
+                "indent": 0,
+                "children": [
+                  {
+                    "type": "text",
+                    "detail": 0,
+                    "format": 0,
+                    "mode": "normal",
+                    "style": "",
+                    "text": "When using FuelPay in the Maxol Loyalty App, you will be asked to select an amount before you fill up your vehicle. We will seek a pre-authorisation for the amount selected from your bank. When you finish filling up, we will request the exact sales amount only from your bank and the immediate release of the initial pre-authorisation. In most instances the release of the pre-authorisation is instant however depending on your bank it can take up to 10 working days. ",
+                    "version": 1
+                  },
+                  {
+                    "type": "linebreak",
+                    "version": 1
+                  },
+                  {
+                    "type": "text",
+                    "detail": 0,
+                    "format": 0,
+                    "mode": "normal",
+                    "style": "",
+                    "text": "Please contact your bank to resolve directly and be assured we will only charge for the fuel purchased.",
+                    "version": 1
+                  }
+                ],
+                "version": 1
+              }
+            ],
+            "version": 1
+          }
+        }
+      },
+      "question": "Why is there a pre-authorisation on my account?",
+      "name": "Why is there a pre-authorisation on my account?",
+      "c_faqsCategory": [
+        "Loyalty"
+      ],
+      "uid": "1024834380"
+    },
+    "highlightedFields": {}
+  },
+  {
+    "data": {
+      "id": "faq_49",
+      "type": "ce_searchFaqs",
+      "answerV2": {
+        "json": {
+          "root": {
+            "type": "root",
+            "direction": "ltr",
+            "format": "",
+            "indent": 0,
+            "children": [
+              {
+                "type": "paragraph",
+                "direction": "ltr",
+                "format": "",
+                "indent": 0,
+                "children": [
+                  {
+                    "type": "text",
+                    "detail": 0,
+                    "format": 0,
+                    "mode": "normal",
+                    "style": "",
+                    "text": "You can opt out under the Preference section in My Page which can be found in the \"More\" section in the menu at the bottom of the app.",
+                    "version": 1
+                  },
+                  {
+                    "type": "linebreak",
+                    "version": 1
+                  }
+                ],
+                "version": 1
+              }
+            ],
+            "version": 1
+          }
+        }
+      },
+      "question": "How can I unsubscribe to stop receiving SMS?",
+      "name": "How can I unsubscribe to stop receiving SMS?",
+      "c_faqsCategory": [
+        "Loyalty"
+      ],
+      "uid": "1024834381"
+    },
+    "highlightedFields": {}
+  },
+  {
+    "data": {
+      "id": "faq_50",
+      "type": "ce_searchFaqs",
+      "answerV2": {
+        "json": {
+          "root": {
+            "type": "root",
+            "direction": "ltr",
+            "format": "",
+            "indent": 0,
+            "children": [
+              {
+                "type": "paragraph",
+                "direction": "ltr",
+                "format": "",
+                "indent": 0,
+                "children": [
+                  {
+                    "type": "text",
+                    "detail": 0,
+                    "format": 0,
+                    "mode": "normal",
+                    "style": "",
+                    "text": "You can stop push notifications via app settings on your mobile phone.",
+                    "version": 1
+                  },
+                  {
+                    "type": "linebreak",
+                    "version": 1
+                  }
+                ],
+                "version": 1
+              }
+            ],
+            "version": 1
+          }
+        }
+      },
+      "question": "How can I stop push notifications?",
+      "name": "How can I stop push notifications?",
+      "c_faqsCategory": [
+        "Loyalty"
+      ],
+      "uid": "1024834382"
+    },
+    "highlightedFields": {}
+  },
+  {
+    "data": {
+      "id": "faq_51",
+      "type": "ce_searchFaqs",
+      "answerV2": {
+        "json": {
+          "root": {
+            "type": "root",
+            "direction": "ltr",
+            "format": "",
+            "indent": 0,
+            "children": [
+              {
+                "type": "paragraph",
+                "direction": "ltr",
+                "format": "",
+                "indent": 0,
+                "children": [
+                  {
+                    "type": "text",
+                    "detail": 0,
+                    "format": 0,
+                    "mode": "normal",
+                    "style": "",
+                    "text": "You can opt out by clicking the unsubscribe button in the footer of the email you receive.",
+                    "version": 1
+                  },
+                  {
+                    "type": "linebreak",
+                    "version": 1
+                  }
+                ],
+                "version": 1
+              }
+            ],
+            "version": 1
+          }
+        }
+      },
+      "question": "How can I unsubscribe from receiving emails ?",
+      "name": "How can I unsubscribe from receiving emails ?",
+      "c_faqsCategory": [
+        "Loyalty"
+      ],
+      "uid": "1024834383"
+    },
+    "highlightedFields": {}
+  },
+  {
+    "data": {
+      "id": "faq_52",
+      "type": "ce_searchFaqs",
+      "answerV2": {
+        "json": {
+          "root": {
+            "type": "root",
+            "direction": "ltr",
+            "format": "",
+            "indent": 0,
+            "children": [
+              {
+                "type": "paragraph",
+                "direction": "ltr",
+                "format": "",
+                "indent": 0,
+                "children": [
+                  {
+                    "type": "text",
+                    "detail": 0,
+                    "format": 0,
+                    "mode": "normal",
+                    "style": "",
+                    "text": "You can edit your details and enter an email address in the My Page section which can be found in the \"More\" section in the menu at the bottom of the app.",
+                    "version": 1
+                  },
+                  {
+                    "type": "linebreak",
+                    "version": 1
+                  }
+                ],
+                "version": 1
+              }
+            ],
+            "version": 1
+          }
+        }
+      },
+      "question": "Where can I validate my email address to receive emails from Maxol?",
+      "name": "Where can I validate my email address to receive emails from Maxol?",
+      "c_faqsCategory": [
+        "Loyalty"
+      ],
+      "uid": "1024834384"
+    },
+    "highlightedFields": {}
+  },
+  {
+    "data": {
+      "id": "faq_53",
+      "type": "ce_searchFaqs",
+      "answerV2": {
+        "json": {
+          "root": {
+            "type": "root",
+            "direction": "ltr",
+            "format": "",
+            "indent": 0,
+            "children": [
+              {
+                "type": "paragraph",
+                "direction": "ltr",
+                "format": "",
+                "indent": 0,
+                "children": [
+                  {
+                    "type": "text",
+                    "detail": 0,
+                    "format": 0,
+                    "mode": "normal",
+                    "style": "",
+                    "text": "Yes and you can view App Terms & Conditions and information about how your personal information is stored in the App under the terms and conditions section in My Page which can be found in the \"More\" section in the menu at the bottom of the app.",
+                    "version": 1
+                  },
+                  {
+                    "type": "linebreak",
+                    "version": 1
+                  }
+                ],
+                "version": 1
+              }
+            ],
+            "version": 1
+          }
+        }
+      },
+      "question": "Is the programme GDPR compliant?",
+      "name": "Is the programme GDPR compliant?",
+      "c_faqsCategory": [
+        "Loyalty"
+      ],
+      "uid": "1024834385"
+    },
+    "highlightedFields": {}
+  },
+  {
+    "data": {
+      "id": "faq_54",
+      "type": "ce_searchFaqs",
+      "answerV2": {
+        "json": {
+          "root": {
+            "type": "root",
+            "direction": "ltr",
+            "format": "",
+            "indent": 0,
+            "children": [
+              {
+                "type": "paragraph",
+                "direction": "ltr",
+                "format": "",
+                "indent": 0,
+                "children": [
+                  {
+                    "type": "text",
+                    "detail": 0,
+                    "format": 0,
+                    "mode": "normal",
+                    "style": "",
+                    "text": "Customer data is deleted from the system within a 24 hour period.",
+                    "version": 1
+                  },
+                  {
+                    "type": "linebreak",
+                    "version": 1
+                  }
+                ],
+                "version": 1
+              }
+            ],
+            "version": 1
+          }
+        }
+      },
+      "question": "What happens to my information if I delete the App?",
+      "name": "What happens to my information if I delete the App?",
+      "c_faqsCategory": [
+        "Loyalty"
+      ],
+      "uid": "1024834388"
+    },
+    "highlightedFields": {}
+  },
+  {
+    "data": {
+      "id": "faq_55",
+      "type": "ce_searchFaqs",
+      "answerV2": {
+        "json": {
+          "root": {
+            "type": "root",
+            "direction": "ltr",
+            "format": "",
+            "indent": 0,
+            "children": [
+              {
+                "type": "paragraph",
+                "direction": "ltr",
+                "format": "",
+                "indent": 0,
+                "children": [
+                  {
+                    "type": "text",
+                    "detail": 0,
+                    "format": 0,
+                    "mode": "normal",
+                    "style": "",
+                    "text": "You can use the loyalty app at participating Maxol Service Stations in the Republic of Ireland only. Please view a list of participating stores here.",
+                    "version": 1
+                  },
+                  {
+                    "type": "linebreak",
+                    "version": 1
+                  }
+                ],
+                "version": 1
+              }
+            ],
+            "version": 1
+          }
+        }
+      },
+      "question": "Where can I use the Maxol Loyalty App?",
+      "name": "Where can I use the Maxol Loyalty App?",
+      "c_faqsCategory": [
+        "Loyalty"
+      ],
+      "uid": "1024834390"
+    },
+    "highlightedFields": {}
+  }
+]

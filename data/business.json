@@ -1,0 +1,513 @@
+[
+  {
+    "data": {
+      "id": "search-business-opportunities",
+      "type": "ce_searchBusiness",
+      "slug": "search-business-opportunities",
+      "name": "Business Opportunities",
+      "c_aboutVertical": {
+        "image": {
+          "url": "https://a.mktgcdn.com/p/uTmfrEZOEJBLTqmIA8zyod7ljMWHrRq-ZkxWgAk7omo/642x336.png",
+          "width": 642,
+          "height": 336,
+          "thumbnails": [
+            {
+              "url": "https://a.mktgcdn.com/p/uTmfrEZOEJBLTqmIA8zyod7ljMWHrRq-ZkxWgAk7omo/642x336.png",
+              "width": 642,
+              "height": 336
+            },
+            {
+              "url": "https://a.mktgcdn.com/p/uTmfrEZOEJBLTqmIA8zyod7ljMWHrRq-ZkxWgAk7omo/619x324.png",
+              "width": 619,
+              "height": 324
+            },
+            {
+              "url": "https://a.mktgcdn.com/p/uTmfrEZOEJBLTqmIA8zyod7ljMWHrRq-ZkxWgAk7omo/600x314.png",
+              "width": 600,
+              "height": 314
+            },
+            {
+              "url": "https://a.mktgcdn.com/p/uTmfrEZOEJBLTqmIA8zyod7ljMWHrRq-ZkxWgAk7omo/196x103.png",
+              "width": 196,
+              "height": 103
+            }
+          ]
+        },
+        "heading": "Business Opportunity",
+        "description": "Becoming a Maxol Licensee is your gateway to a thriving, turnkey business venture. We are committed to providing you with all the essentials to be a success.",
+        "button": {
+          "label": "Learn More",
+          "linkType": "URL",
+          "link": "https://www.maxol.ie/business-opportunity"
+        }
+      },
+      "uid": "1010979917"
+    },
+    "highlightedFields": {}
+  },
+  {
+    "data": {
+      "id": "search-dealer-partners",
+      "type": "ce_searchBusiness",
+      "slug": "search-dealer-partners",
+      "name": "Dealer Partners",
+      "c_aboutVertical": {
+        "image": {
+          "url": "https://a.mktgcdn.com/p/ycN3CGHGbk8xJBw_ovRCRXlLj48_Nlx8nxIvp0D7lQc/642x336.png",
+          "width": 642,
+          "height": 336,
+          "thumbnails": [
+            {
+              "url": "https://a.mktgcdn.com/p/ycN3CGHGbk8xJBw_ovRCRXlLj48_Nlx8nxIvp0D7lQc/642x336.png",
+              "width": 642,
+              "height": 336
+            },
+            {
+              "url": "https://a.mktgcdn.com/p/ycN3CGHGbk8xJBw_ovRCRXlLj48_Nlx8nxIvp0D7lQc/619x324.png",
+              "width": 619,
+              "height": 324
+            },
+            {
+              "url": "https://a.mktgcdn.com/p/ycN3CGHGbk8xJBw_ovRCRXlLj48_Nlx8nxIvp0D7lQc/600x314.png",
+              "width": 600,
+              "height": 314
+            },
+            {
+              "url": "https://a.mktgcdn.com/p/ycN3CGHGbk8xJBw_ovRCRXlLj48_Nlx8nxIvp0D7lQc/196x103.png",
+              "width": 196,
+              "height": 103
+            }
+          ]
+        },
+        "heading": "Dealer Partners",
+        "description": "At Maxol we pride ourselves on being more than a fuel supplier to our Independent Dealer Partners.",
+        "button": {
+          "label": "Learn More",
+          "linkType": "URL",
+          "link": "https://www.maxol.ie/dealer-partner"
+        }
+      },
+      "uid": "1010979940"
+    },
+    "highlightedFields": {}
+  },
+  {
+    "data": {
+      "id": "search-contact-us",
+      "type": "ce_searchBusiness",
+      "slug": "search-contact-us",
+      "name": "Contact Us",
+      "c_aboutVertical": {
+        "image": {
+          "url": "https://a.mktgcdn.com/p/GPs6Ro4bqAf_gtjXnLq3-ScZPH-TM0CIWc7M4fRRyq0/642x336.png",
+          "width": 642,
+          "height": 336,
+          "thumbnails": [
+            {
+              "url": "https://a.mktgcdn.com/p/GPs6Ro4bqAf_gtjXnLq3-ScZPH-TM0CIWc7M4fRRyq0/642x336.png",
+              "width": 642,
+              "height": 336
+            },
+            {
+              "url": "https://a.mktgcdn.com/p/GPs6Ro4bqAf_gtjXnLq3-ScZPH-TM0CIWc7M4fRRyq0/619x324.png",
+              "width": 619,
+              "height": 324
+            },
+            {
+              "url": "https://a.mktgcdn.com/p/GPs6Ro4bqAf_gtjXnLq3-ScZPH-TM0CIWc7M4fRRyq0/600x314.png",
+              "width": 600,
+              "height": 314
+            },
+            {
+              "url": "https://a.mktgcdn.com/p/GPs6Ro4bqAf_gtjXnLq3-ScZPH-TM0CIWc7M4fRRyq0/196x103.png",
+              "width": 196,
+              "height": 103
+            }
+          ]
+        },
+        "heading": "Contact Us",
+        "description": "Please fill in the contact sheet below to get in touch or alternatively call the relevant office numbers below.",
+        "button": {
+          "label": "Learn More",
+          "linkType": "URL",
+          "link": "https://www.maxol.ie/contact-us"
+        }
+      },
+      "uid": "1024938062"
+    },
+    "highlightedFields": {}
+  },
+  {
+    "data": {
+      "id": "search-lubricants",
+      "type": "ce_searchBusiness",
+      "slug": "search-lubricants",
+      "name": "Lubricants",
+      "c_aboutVertical": {
+        "image": {
+          "url": "https://a.mktgcdn.com/p/pIDIgvhSyUQhlRvENiEulnS8kd23Of_zlFoxy5-ObAQ/642x336.png",
+          "width": 642,
+          "height": 336,
+          "thumbnails": [
+            {
+              "url": "https://a.mktgcdn.com/p/pIDIgvhSyUQhlRvENiEulnS8kd23Of_zlFoxy5-ObAQ/642x336.png",
+              "width": 642,
+              "height": 336
+            },
+            {
+              "url": "https://a.mktgcdn.com/p/pIDIgvhSyUQhlRvENiEulnS8kd23Of_zlFoxy5-ObAQ/619x324.png",
+              "width": 619,
+              "height": 324
+            },
+            {
+              "url": "https://a.mktgcdn.com/p/pIDIgvhSyUQhlRvENiEulnS8kd23Of_zlFoxy5-ObAQ/600x314.png",
+              "width": 600,
+              "height": 314
+            },
+            {
+              "url": "https://a.mktgcdn.com/p/pIDIgvhSyUQhlRvENiEulnS8kd23Of_zlFoxy5-ObAQ/196x103.png",
+              "width": 196,
+              "height": 103
+            }
+          ]
+        },
+        "heading": "Lubricants",
+        "description": "Find the right lubricant or coolant for any vehicle.",
+        "button": {
+          "label": "Learn More",
+          "linkType": "URL",
+          "link": "https://www.maxol.ie/lubricants"
+        }
+      },
+      "uid": "1024938068"
+    },
+    "highlightedFields": {}
+  },
+  {
+    "data": {
+      "id": "search-product-technical",
+      "type": "ce_searchBusiness",
+      "slug": "search-product-technical",
+      "name": "Products & Technical",
+      "c_aboutVertical": {
+        "image": {
+          "url": "https://a.mktgcdn.com/p/g0GdHUyXolCuyRQ9TbasMQ8C6HABlmlycv2P2Z7yZiI/642x336.png",
+          "width": 642,
+          "height": 336,
+          "thumbnails": [
+            {
+              "url": "https://a.mktgcdn.com/p/g0GdHUyXolCuyRQ9TbasMQ8C6HABlmlycv2P2Z7yZiI/642x336.png",
+              "width": 642,
+              "height": 336
+            },
+            {
+              "url": "https://a.mktgcdn.com/p/g0GdHUyXolCuyRQ9TbasMQ8C6HABlmlycv2P2Z7yZiI/619x324.png",
+              "width": 619,
+              "height": 324
+            },
+            {
+              "url": "https://a.mktgcdn.com/p/g0GdHUyXolCuyRQ9TbasMQ8C6HABlmlycv2P2Z7yZiI/600x314.png",
+              "width": 600,
+              "height": 314
+            },
+            {
+              "url": "https://a.mktgcdn.com/p/g0GdHUyXolCuyRQ9TbasMQ8C6HABlmlycv2P2Z7yZiI/196x103.png",
+              "width": 196,
+              "height": 103
+            }
+          ]
+        },
+        "heading": "Products & Technical",
+        "description": "Find the right lubricant or anti-freeze for any vehical.",
+        "button": {
+          "label": "Learn More",
+          "linkType": "URL",
+          "link": "https://www.maxol.ie/lubricants/products-technical"
+        }
+      },
+      "uid": "1024938144"
+    },
+    "highlightedFields": {}
+  },
+  {
+    "data": {
+      "id": "search-stocklist",
+      "type": "ce_searchBusiness",
+      "slug": "search-stocklist",
+      "name": "Stockist",
+      "c_aboutVertical": {
+        "image": {
+          "url": "https://a.mktgcdn.com/p/xZ6fy5S5oYPAF5sYaxI6KzxJqnM_KMvKA97cCcw4ly0/814x600.jpg",
+          "width": 814,
+          "height": 600,
+          "sourceUrl": "https://a.mktgcdn.com/p/xZ6fy5S5oYPAF5sYaxI6KzxJqnM_KMvKA97cCcw4ly0/814x600.jpg",
+          "thumbnails": [
+            {
+              "url": "https://a.mktgcdn.com/p/xZ6fy5S5oYPAF5sYaxI6KzxJqnM_KMvKA97cCcw4ly0/814x600.jpg",
+              "width": 814,
+              "height": 600
+            },
+            {
+              "url": "https://a.mktgcdn.com/p/xZ6fy5S5oYPAF5sYaxI6KzxJqnM_KMvKA97cCcw4ly0/619x456.jpg",
+              "width": 619,
+              "height": 456
+            },
+            {
+              "url": "https://a.mktgcdn.com/p/xZ6fy5S5oYPAF5sYaxI6KzxJqnM_KMvKA97cCcw4ly0/600x442.jpg",
+              "width": 600,
+              "height": 442
+            },
+            {
+              "url": "https://a.mktgcdn.com/p/xZ6fy5S5oYPAF5sYaxI6KzxJqnM_KMvKA97cCcw4ly0/196x144.jpg",
+              "width": 196,
+              "height": 144
+            }
+          ]
+        },
+        "heading": "Stockist",
+        "description": "Find the nearest store to you that stocks Maxol Lubricants products.",
+        "button": {
+          "label": "Learn More",
+          "linkType": "URL",
+          "link": "https://www.maxol.ie/stockist"
+        }
+      },
+      "uid": "1024938145"
+    },
+    "highlightedFields": {}
+  },
+  {
+    "data": {
+      "id": "search-team-distributors",
+      "type": "ce_searchBusiness",
+      "slug": "search-team-distributors",
+      "name": "Team & Distributors",
+      "c_aboutVertical": {
+        "image": {
+          "url": "https://a.mktgcdn.com/p/fJUIlQCkAo18Ykspitm-SLkRPG6fz-lsG2T8KkvxcdA/814x600.jpg",
+          "width": 814,
+          "height": 600,
+          "sourceUrl": "https://a.mktgcdn.com/p/fJUIlQCkAo18Ykspitm-SLkRPG6fz-lsG2T8KkvxcdA/814x600.jpg",
+          "thumbnails": [
+            {
+              "url": "https://a.mktgcdn.com/p/fJUIlQCkAo18Ykspitm-SLkRPG6fz-lsG2T8KkvxcdA/814x600.jpg",
+              "width": 814,
+              "height": 600
+            },
+            {
+              "url": "https://a.mktgcdn.com/p/fJUIlQCkAo18Ykspitm-SLkRPG6fz-lsG2T8KkvxcdA/619x456.jpg",
+              "width": 619,
+              "height": 456
+            },
+            {
+              "url": "https://a.mktgcdn.com/p/fJUIlQCkAo18Ykspitm-SLkRPG6fz-lsG2T8KkvxcdA/600x442.jpg",
+              "width": 600,
+              "height": 442
+            },
+            {
+              "url": "https://a.mktgcdn.com/p/fJUIlQCkAo18Ykspitm-SLkRPG6fz-lsG2T8KkvxcdA/196x144.jpg",
+              "width": 196,
+              "height": 144
+            }
+          ]
+        },
+        "heading": "Team & Distributors",
+        "description": "Our dedicated team are on hand Monday - Friday to assist you with any queries you may have, get in touch today!",
+        "button": {
+          "label": "Learn More",
+          "linkType": "URL",
+          "link": "https://www.maxol.ie/team-distributors"
+        }
+      },
+      "uid": "1024938147"
+    },
+    "highlightedFields": {}
+  },
+  {
+    "data": {
+      "id": "search-news",
+      "type": "ce_searchBusiness",
+      "slug": "search-news",
+      "name": "Latest News",
+      "c_aboutVertical": {
+        "image": {
+          "url": "https://a.mktgcdn.com/p/P7BY7DJv9YOB8vx1TC2uJu67UR5S6J_OKKEEzJ0qMkU/814x600.png",
+          "width": 814,
+          "height": 600,
+          "sourceUrl": "https://a.mktgcdn.com/p/P7BY7DJv9YOB8vx1TC2uJu67UR5S6J_OKKEEzJ0qMkU/814x600.png",
+          "thumbnails": [
+            {
+              "url": "https://a.mktgcdn.com/p/P7BY7DJv9YOB8vx1TC2uJu67UR5S6J_OKKEEzJ0qMkU/814x600.png",
+              "width": 814,
+              "height": 600
+            },
+            {
+              "url": "https://a.mktgcdn.com/p/P7BY7DJv9YOB8vx1TC2uJu67UR5S6J_OKKEEzJ0qMkU/619x456.png",
+              "width": 619,
+              "height": 456
+            },
+            {
+              "url": "https://a.mktgcdn.com/p/P7BY7DJv9YOB8vx1TC2uJu67UR5S6J_OKKEEzJ0qMkU/600x442.png",
+              "width": 600,
+              "height": 442
+            },
+            {
+              "url": "https://a.mktgcdn.com/p/P7BY7DJv9YOB8vx1TC2uJu67UR5S6J_OKKEEzJ0qMkU/196x144.png",
+              "width": 196,
+              "height": 144
+            }
+          ]
+        },
+        "heading": "Latest News",
+        "description": "Stay up to date with all our news and press releases here.",
+        "button": {
+          "label": "Learn More",
+          "linkType": "URL",
+          "link": "https://www.maxol.ie/news"
+        }
+      },
+      "uid": "1024938149"
+    },
+    "highlightedFields": {}
+  },
+  {
+    "data": {
+      "id": "search-quality-assurance",
+      "type": "ce_searchBusiness",
+      "slug": "search-quality-assurance",
+      "name": "Quality Assurance",
+      "c_aboutVertical": {
+        "image": {
+          "url": "https://a.mktgcdn.com/p/2SOhiz59XmC3vAoBiHsNzozaDB_QMLqs0_ibjTh5koo/814x600.jpg",
+          "width": 814,
+          "height": 600,
+          "sourceUrl": "https://a.mktgcdn.com/p/2SOhiz59XmC3vAoBiHsNzozaDB_QMLqs0_ibjTh5koo/814x600.jpg",
+          "thumbnails": [
+            {
+              "url": "https://a.mktgcdn.com/p/2SOhiz59XmC3vAoBiHsNzozaDB_QMLqs0_ibjTh5koo/814x600.jpg",
+              "width": 814,
+              "height": 600
+            },
+            {
+              "url": "https://a.mktgcdn.com/p/2SOhiz59XmC3vAoBiHsNzozaDB_QMLqs0_ibjTh5koo/619x456.jpg",
+              "width": 619,
+              "height": 456
+            },
+            {
+              "url": "https://a.mktgcdn.com/p/2SOhiz59XmC3vAoBiHsNzozaDB_QMLqs0_ibjTh5koo/600x442.jpg",
+              "width": 600,
+              "height": 442
+            },
+            {
+              "url": "https://a.mktgcdn.com/p/2SOhiz59XmC3vAoBiHsNzozaDB_QMLqs0_ibjTh5koo/196x144.jpg",
+              "width": 196,
+              "height": 144
+            }
+          ]
+        },
+        "heading": "Quality Assurance",
+        "description": "Maxol Lubricants are produced to the highest quality levels. Lubricants by their nature reduce friction, prevent wear and reduce temperature by separating two moving parts with a thin film of oil or grease helping to prolong the life of the machine and reduce maintenance costs.",
+        "button": {
+          "label": "Learn More",
+          "linkType": "URL",
+          "link": "https://www.maxol.ie/quality-assurance"
+        }
+      },
+      "uid": "1025002781"
+    },
+    "highlightedFields": {}
+  },
+  {
+    "data": {
+      "id": "search-business-fuel-card",
+      "type": "ce_searchBusiness",
+      "slug": "search-business-fuel-card",
+      "name": "Fuel Card",
+      "c_aboutVertical": {
+        "image": {
+          "url": "https://a.mktgcdn.com/p/dGvkSX9ltcrI3cGhMXPwMewXoKfv-ZQL17Bi9KwDUb4/642x336.png",
+          "width": 642,
+          "height": 336,
+          "thumbnails": [
+            {
+              "url": "https://a.mktgcdn.com/p/dGvkSX9ltcrI3cGhMXPwMewXoKfv-ZQL17Bi9KwDUb4/642x336.png",
+              "width": 642,
+              "height": 336
+            },
+            {
+              "url": "https://a.mktgcdn.com/p/dGvkSX9ltcrI3cGhMXPwMewXoKfv-ZQL17Bi9KwDUb4/619x324.png",
+              "width": 619,
+              "height": 324
+            },
+            {
+              "url": "https://a.mktgcdn.com/p/dGvkSX9ltcrI3cGhMXPwMewXoKfv-ZQL17Bi9KwDUb4/600x314.png",
+              "width": 600,
+              "height": 314
+            },
+            {
+              "url": "https://a.mktgcdn.com/p/dGvkSX9ltcrI3cGhMXPwMewXoKfv-ZQL17Bi9KwDUb4/196x103.png",
+              "width": 196,
+              "height": 103
+            }
+          ]
+        },
+        "heading": "Fuel Card",
+        "description": "Maxol Fuel Cards offer precise fuel cost management for your business. Become our customer to gain control over your fuel expenses today.",
+        "button": {
+          "label": "Learn More",
+          "linkType": "URL",
+          "link": "https://www.maxol.ie/fuelcards"
+        }
+      },
+      "uid": "1025009751"
+    },
+    "highlightedFields": {}
+  },
+  {
+    "data": {
+      "id": "search-terms-condition",
+      "type": "ce_searchBusiness",
+      "slug": "search-terms-condition",
+      "name": "Terms And Condition",
+      "c_aboutVertical": {
+        "image": {
+          "url": "https://a.mktgcdn.com/p/2SOhiz59XmC3vAoBiHsNzozaDB_QMLqs0_ibjTh5koo/814x600.jpg",
+          "width": 814,
+          "height": 600,
+          "sourceUrl": "https://a.mktgcdn.com/p/2SOhiz59XmC3vAoBiHsNzozaDB_QMLqs0_ibjTh5koo/814x600.jpg",
+          "thumbnails": [
+            {
+              "url": "https://a.mktgcdn.com/p/2SOhiz59XmC3vAoBiHsNzozaDB_QMLqs0_ibjTh5koo/814x600.jpg",
+              "width": 814,
+              "height": 600
+            },
+            {
+              "url": "https://a.mktgcdn.com/p/2SOhiz59XmC3vAoBiHsNzozaDB_QMLqs0_ibjTh5koo/619x456.jpg",
+              "width": 619,
+              "height": 456
+            },
+            {
+              "url": "https://a.mktgcdn.com/p/2SOhiz59XmC3vAoBiHsNzozaDB_QMLqs0_ibjTh5koo/600x442.jpg",
+              "width": 600,
+              "height": 442
+            },
+            {
+              "url": "https://a.mktgcdn.com/p/2SOhiz59XmC3vAoBiHsNzozaDB_QMLqs0_ibjTh5koo/196x144.jpg",
+              "width": 196,
+              "height": 144
+            }
+          ]
+        },
+        "heading": "Terms And Condition",
+        "description": "The price to be paid in respect of any order received or delivery made  shall be the price ruling on the date of delivery of that order and  where delivery of any order is made in more than one consignment the  price of each consignment shall be the price ruling on the date on which  such consignment is delivered.",
+        "button": {
+          "label": "Learn More",
+          "linkType": "URL",
+          "link": "https://www.maxol.ie/terms-and-conditions"
+        }
+      },
+      "uid": "1025013340"
+    },
+    "highlightedFields": {}
+  }
+]

@@ -1,0 +1,188 @@
+[
+  {
+    "data": {
+      "id": "search-fuel",
+      "type": "ce_searchForecourt",
+      "slug": "[entityid]]",
+      "name": "Fuel",
+      "c_aboutVertical": {
+        "image": {
+          "url": "https://a.mktgcdn.com/p/ScrUlfez5peGKl_hn8nbnsrDEykUuFxE4V4vqykA-Vk/98x98.png",
+          "width": 98,
+          "height": 98,
+          "thumbnails": [
+            {
+              "url": "https://a.mktgcdn.com/p/ScrUlfez5peGKl_hn8nbnsrDEykUuFxE4V4vqykA-Vk/98x98.png",
+              "width": 98,
+              "height": 98
+            }
+          ]
+        },
+        "heading": "Fuel",
+        "description": "The Luxury Confectionery Company (Cork), makers of premium chocolate tablet bars and truffles.",
+        "button": {
+          "label": "Learn More",
+          "linkType": "URL",
+          "link": "https://www.maxol.ie/fuels"
+        }
+      },
+      "uid": "1024936692"
+    },
+    "highlightedFields": {}
+  },
+  {
+    "data": {
+      "id": "search-premium-fuel",
+      "type": "ce_searchForecourt",
+      "slug": "search-premium-fuel",
+      "name": "Premium Fuel",
+      "c_aboutVertical": {
+        "image": {
+          "url": "https://a.mktgcdn.com/p/NuDzmBjzf8yOoPZFyL8ZCEpa7I20xRrLcGB8DX_1O5o/98x98.png",
+          "width": 98,
+          "height": 98,
+          "thumbnails": [
+            {
+              "url": "https://a.mktgcdn.com/p/NuDzmBjzf8yOoPZFyL8ZCEpa7I20xRrLcGB8DX_1O5o/98x98.png",
+              "width": 98,
+              "height": 98
+            }
+          ]
+        },
+        "heading": "Premium Fuel",
+        "description": "Maxol is offering its customers 100% carbon offset Premium fuel. Together we are neutralising emissions to support Irelands local communities and the planet.",
+        "button": {
+          "label": "Learn More",
+          "linkType": "URL",
+          "link": "https://www.maxol.ie/fuels/premium"
+        }
+      },
+      "uid": "1024936693"
+    },
+    "highlightedFields": {}
+  },
+  {
+    "data": {
+      "id": "search-fuelcards",
+      "type": "ce_searchForecourt",
+      "slug": "search-fuelcards",
+      "name": "Fuel Card",
+      "c_aboutVertical": {
+        "image": {
+          "url": "https://a.mktgcdn.com/p/_dpDV2gi4CDCq_ilrrxBpVEYcx3Ye401SoaoVmd1MRw/98x98.png",
+          "width": 98,
+          "height": 98,
+          "thumbnails": [
+            {
+              "url": "https://a.mktgcdn.com/p/_dpDV2gi4CDCq_ilrrxBpVEYcx3Ye401SoaoVmd1MRw/98x98.png",
+              "width": 98,
+              "height": 98
+            }
+          ]
+        },
+        "heading": "Fuel Card",
+        "description": "Maxol Fuel Cards offer precise fuel cost management for your business. Become our customer to gain control over your fuel expenses today.",
+        "button": {
+          "label": "Learn More",
+          "linkType": "URL",
+          "link": "https://www.maxol.ie/fuelcards"
+        }
+      },
+      "uid": "1024936694"
+    },
+    "highlightedFields": {}
+  },
+  {
+    "data": {
+      "id": "search-ev-recharge",
+      "type": "ce_searchForecourt",
+      "slug": "search-ev-recharge",
+      "name": "Recharge Electric Vehicle",
+      "c_aboutVertical": {
+        "image": {
+          "url": "https://a.mktgcdn.com/p/dKCQv_ZfRBy5OtykkTqTGf1ttS4GK0tFNlZWJxCbJmM/98x98.png",
+          "width": 98,
+          "height": 98,
+          "thumbnails": [
+            {
+              "url": "https://a.mktgcdn.com/p/dKCQv_ZfRBy5OtykkTqTGf1ttS4GK0tFNlZWJxCbJmM/98x98.png",
+              "width": 98,
+              "height": 98
+            }
+          ]
+        },
+        "heading": "Recharge Electric Vehicle",
+        "description": "Customers can now enjoy high-powered rapid and ultra-rapid charging at Maxol locations around the country.",
+        "button": {
+          "label": "Learn More",
+          "linkType": "URL",
+          "link": "https://www.maxol.ie/ev-recharge"
+        }
+      },
+      "uid": "1024936695"
+    },
+    "highlightedFields": {}
+  },
+  {
+    "data": {
+      "id": "search-car-wash",
+      "type": "ce_searchForecourt",
+      "slug": "search-car-wash",
+      "name": "Car Wash",
+      "c_aboutVertical": {
+        "image": {
+          "url": "https://a.mktgcdn.com/p/w2FeEpt-YzVALQop8slO5QDAZ8g0U6YPy7GdNpvWye4/98x98.png",
+          "width": 98,
+          "height": 98,
+          "thumbnails": [
+            {
+              "url": "https://a.mktgcdn.com/p/w2FeEpt-YzVALQop8slO5QDAZ8g0U6YPy7GdNpvWye4/98x98.png",
+              "width": 98,
+              "height": 98
+            }
+          ]
+        },
+        "heading": "Car Wash",
+        "description": "At Maxol, we use the latest technology in car washing, providing the highest quality wash and best finish available.",
+        "button": {
+          "label": "Learn More",
+          "linkType": "URL",
+          "link": "https://www.maxol.ie/car-wash"
+        }
+      },
+      "uid": "1024936697"
+    },
+    "highlightedFields": {}
+  },
+  {
+    "data": {
+      "id": "search-forecourt-services",
+      "type": "ce_searchForecourt",
+      "slug": "search-forecourt-services",
+      "name": "Forecourt Services",
+      "c_aboutVertical": {
+        "image": {
+          "url": "https://a.mktgcdn.com/p/FYDbJ3WQobbf9Vub6RIpH-bt_5FOg77AZmybASGMAB0/98x98.png",
+          "width": 98,
+          "height": 98,
+          "thumbnails": [
+            {
+              "url": "https://a.mktgcdn.com/p/FYDbJ3WQobbf9Vub6RIpH-bt_5FOg77AZmybASGMAB0/98x98.png",
+              "width": 98,
+              "height": 98
+            }
+          ]
+        },
+        "heading": "Forecourt Services",
+        "description": "From quality assured fuel to top of the range pumps with pay at pump, excellent service areas to state-of-the-art car wash programmes and innovative EV hubs.",
+        "button": {
+          "label": "Learn More",
+          "linkType": "URL",
+          "link": "https://www.maxol.ie/forecourt-services"
+        }
+      },
+      "uid": "1024936699"
+    },
+    "highlightedFields": {}
+  }
+]
