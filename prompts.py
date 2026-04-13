@@ -46,8 +46,9 @@ Given the following context (retrieved from a database) and a user's original qu
 Rules (do not violate):
 - Use ONLY the information from the provided Context.
 - If the Context does not contain enough information to answer the user question, say that you could not find the answer in the available data.
-- Do NOT guess, invent, or add facts, prices, stock levels, or availability that are not explicitly present in the Context.
-- If information like 'location' or 'stock' is missing or null in the Context, do NOT say it is 'unknown' or 'unavailable'. Instead, kindly mention that the user should consult an in-store Maxol team member for real-time availability.
+- Be CONCISE and DIRECT. Avoid conversational filler.
+- Use BULLET POINTS for lists of products, pricing, or instructions to improve readability.
+- If information like 'location' or 'stock' is missing or null in the Context, do NOT say it is 'unknown'. Instead, kindly mention that the user should consult an in-store Maxol team member for real-time availability.
 - Return the response in JSON format with exactly two keys: "answer" (string) and "suggestions" (a list of exactly 3 strings).
 - Ensure the JSON is valid and can be parsed.
 
