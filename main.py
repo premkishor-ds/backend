@@ -280,17 +280,17 @@ async def initial_suggestions():
         cur.execute("SELECT category FROM products GROUP BY category ORDER BY count(*) DESC LIMIT 2;")
         for row in cur.fetchall():
             if row[0]:
-                suggestions.append({"label": row[0], "value": f"Show me {row[0].lower()}"})
+                suggestions.append({"label": row[0], "value": row[0]})
                 
         # 2. Add evergreen/location context
         cur.execute("SELECT count(*) FROM documents WHERE metadata->>'source_file' = 'location.json';")
         if cur.fetchone()[0] > 0:
-            suggestions.append({"label": "Nearest Maxol", "value": "Where is the nearest Maxol?"})
+            suggestions.append({"label": "EV Charging", "value": "EV Charging"})
             
         # 3. Add Business or FAQ if available
         cur.execute("SELECT count(*) FROM documents WHERE metadata->>'source_file' = 'business.json';")
         if cur.fetchone()[0] > 0:
-            suggestions.append({"label": "Business Fuel", "value": "Business fuel services"})
+            suggestions.append({"label": "Business Fuel", "value": "Business Fuel"})
 
         cur.close()
         conn.close()
@@ -298,17 +298,17 @@ async def initial_suggestions():
         # Fallback if DB is empty
         if not suggestions:
             suggestions = [
-                {"label": "Engine Oil", "value": "Maxol Engine Oil"},
-                {"label": "Locations", "value": "Maxol Locations"}
+                {"label": "Engine Oil", "value": "Engine Oil"},
+                {"label": "EV Charging", "value": "EV Charging"}
             ]
             
         return suggestions[:4]
     except Exception as e:
         print(f"Stats Error: {e}")
         return [
-            {"label": "Nearest Maxol", "value": "Nearest Maxol"},
-            {"label": "Fuel Prices", "value": "Maxol Fuel Prices"},
-            {"label": "Engine Oil", "value": "Maxol Engine Oil"},
+            {"label": "EV Charging", "value": "EV Charging"},
+            {"label": "Fuel Prices", "value": "Fuel Prices"},
+            {"label": "Engine Oil", "value": "Engine Oil"},
             {"label": "Business Fuel", "value": "Business Fuel"}
         ]
 
