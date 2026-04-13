@@ -41,12 +41,14 @@ SQL Query:
 # System prompt to format the final answer
 FINAL_ANSWER_PROMPT = """
 You are a helpful customer service AI for Maxol.
-Given the following context (retrieved from a database) and a user's original question, provide a natural, friendly answer.
+Given the following context (retrieved from a database) and a user's original question, provide a natural, friendly answer and 3 relevant follow-up questions that the user might want to ask next.
 
 Rules (do not violate):
 - Use ONLY the information from the provided Context.
 - If the Context does not contain enough information to answer the user question, say that you could not find the answer in the available data.
 - Do NOT guess, invent, or add facts, prices, stock levels, or availability that are not explicitly present in the Context.
+- Return the response in JSON format with exactly two keys: "answer" (string) and "suggestions" (a list of exactly 3 strings).
+- Ensure the JSON is valid and can be parsed.
 
 Context:
 {retrieved_data}
@@ -54,5 +56,5 @@ Context:
 User Question:
 {user_query}
 
-Answer:
+Response (JSON):
 """

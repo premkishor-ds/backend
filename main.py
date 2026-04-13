@@ -230,16 +230,33 @@ async def search(query_data: SearchQuery):
             }
 
         # Step D: Final Response Generation
-        # psycopg2 may return DECIMAL values for numeric columns (e.g. products.price).
-        # Convert them to JSON-safe values so we can build the final prompt.
         final_prompt = FINAL_ANSWER_PROMPT.format(
             retrieved_data=json.dumps(retrieved_data, indent=2, default=str),
             user_query=user_query,
         )
-        answer = call_openai_responses(final_prompt)
+        llm_response = call_openai_responses(final_prompt)
+        
+        # Parse JSON response from LLM
+        answer = llm_response
+        suggestions = ["Tell me more", "Where can I find this?", "Opening hours"]
+        
+        try:
+            # Clean up the response if it contains markdown code blocks
+            cleaned_response = llm_response.strip()
+            if cleaned_response.startswith("```json"):
+                cleaned_response = cleaned_response[7:-3].strip()
+            elif cleaned_response.startswith("```"):
+                cleaned_response = cleaned_response[3:-3].strip()
+            
+            parsed = json.loads(cleaned_response)
+            answer = parsed.get("answer", llm_response)
+            suggestions = parsed.get("suggestions", suggestions)
+        except Exception as json_err:
+            print(f"JSON Parse Error: {json_err}. Using raw response.")
 
         return {
             "answer": answer,
+            "suggestions": suggestions,
             "retrieved": retrieved_data,
             "intent": intent
         }
@@ -247,6 +264,53 @@ async def search(query_data: SearchQuery):
     except Exception as e:
         print(f"Backend Error: {e}")
         raise HTTPException(status_code=500, detail=str(e))
+
+@app.get("/initial-suggestions")
+async def initial_suggestions():
+    """
+    Returns 4-5 relevant search suggestions based on actual database content.
+    """
+    try:
+        conn = get_db_connection()
+        cur = conn.cursor()
+        
+        suggestions = []
+        
+        # 1. Get top product categories
+        cur.execute("SELECT category FROM products GROUP BY category ORDER BY count(*) DESC LIMIT 2;")
+        for row in cur.fetchall():
+            if row[0]:
+                suggestions.append({"label": row[0], "value": f"Show me {row[0].lower()}"})
+                
+        # 2. Add evergreen/location context
+        cur.execute("SELECT count(*) FROM documents WHERE metadata->>'source_file' = 'location.json';")
+        if cur.fetchone()[0] > 0:
+            suggestions.append({"label": "Nearest Maxol", "value": "Where is the nearest Maxol?"})
+            
+        # 3. Add Business or FAQ if available
+        cur.execute("SELECT count(*) FROM documents WHERE metadata->>'source_file' = 'business.json';")
+        if cur.fetchone()[0] > 0:
+            suggestions.append({"label": "Business Fuel", "value": "Business fuel services"})
+
+        cur.close()
+        conn.close()
+        
+        # Fallback if DB is empty
+        if not suggestions:
+            suggestions = [
+                {"label": "Engine Oil", "value": "Maxol Engine Oil"},
+                {"label": "Locations", "value": "Maxol Locations"}
+            ]
+            
+        return suggestions[:4]
+    except Exception as e:
+        print(f"Stats Error: {e}")
+        return [
+            {"label": "Nearest Maxol", "value": "Nearest Maxol"},
+            {"label": "Fuel Prices", "value": "Maxol Fuel Prices"},
+            {"label": "Engine Oil", "value": "Maxol Engine Oil"},
+            {"label": "Business Fuel", "value": "Business Fuel"}
+        ]
 
 @app.get("/")
 def home():
