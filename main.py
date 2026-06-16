@@ -2,7 +2,6 @@ import os
 import json
 import psycopg2
 import requests
-from openai import OpenAI
 from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
@@ -32,22 +31,13 @@ DB_PORT = os.getenv("DB_PORT", "5433")
 DB_NAME = os.getenv("DB_NAME", "ai-based-maxol-rag-search")
 DB_USER = os.getenv("DB_USER", "ai-based-maxol-rag-search")
 DB_PASS = os.getenv("DB_PASS", "Pg4cD8kdFr8vQwn7Mr4zjW")
-OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
-
-# OpenAI model config.
-# Default matches `testapi.html` which works in the browser.
-OPENAI_RESPONSES_MODEL = os.getenv("OPENAI_RESPONSES_MODEL", "gpt-4.1-mini")
-OPENAI_CHAT_COMPLETIONS_MODEL = os.getenv(
-    "OPENAI_CHAT_COMPLETIONS_MODEL",
-    OPENAI_RESPONSES_MODEL,
-)
-OPENAI_EMBEDDING_MODEL = os.getenv("OPENAI_EMBEDDING_MODEL", "text-embedding-3-small")
+OLLAMA_API_URL = os.getenv("OLLAMA_API_URL", "http://192.168.10.148:11434/api/generate")
+OLLAMA_EMBED_URL = os.getenv("OLLAMA_EMBED_URL", "http://192.168.10.148:11434/api/embeddings")
+OLLAMA_MODEL = os.getenv("OLLAMA_MODEL", "qwen2.5:14b")
+OLLAMA_EMBED_MODEL = os.getenv("OLLAMA_EMBED_MODEL", "qwen2.5:14b")
 
 # Max items returned in `retrieved` (Sources panel + LLM context). Vector path uses this as diversify limit; SQL is sliced to this.
 MAX_RETRIEVED_SOURCES = int(os.getenv("SEARCH_RETRIEVED_MAX", "5"))
-
-# Initialize OpenAI client once
-client = OpenAI(api_key=OPENAI_API_KEY)
 
 class SearchQuery(BaseModel):
     query: str
@@ -57,40 +47,30 @@ def get_db_connection():
         host=DB_HOST,port=DB_PORT,dbname=DB_NAME,user=DB_USER,password=DB_PASS
     )
 
-def call_chat_completion(prompt: str) -> str:
-    """Call OpenAI chat completions with a safe model.
-    Uses a configurable model (defaults to `OPENAI_RESPONSES_MODEL`).
-    """
-    response = client.chat.completions.create(
-        model=OPENAI_CHAT_COMPLETIONS_MODEL,
-        temperature=0.2,
-        messages=[{"role": "user", "content": prompt}]
+def call_ollama_generate(prompt: str, response_format: str = None) -> str:
+    """Call local Ollama generate endpoint."""
+    payload = {
+        "model": OLLAMA_MODEL,
+        "prompt": prompt,
+        "stream": False
+    }
+    if response_format:
+        payload["format"] = response_format
+        
+    response = requests.post(
+        OLLAMA_API_URL,
+        json=payload
     )
-    return response.choices[0].message.content.strip()
+    response.raise_for_status()
+    return response.json()["response"].strip()
 
-# Keep the original call_openai_responses for fallback (optional)
-def call_openai_responses(prompt: str) -> str:
-    """Experimental v1/responses endpoint – kept for compatibility.
-    Falls back to chat completions if the model is unavailable.
-    """
-    url = "https://api.openai.com/v1/responses"
-    headers = {
-        "Content-Type": "application/json",
-        "Authorization": f"Bearer {OPENAI_API_KEY}"
-    }
-    data = {
-        "model": OPENAI_RESPONSES_MODEL,
-        "input": prompt
-    }
-    response = requests.post(url, headers=headers, json=data)
-    if response.status_code != 200:
-        # Fallback to chat completions
-        return call_chat_completion(prompt)
-    result = response.json()
-    try:
-        return result['output'][0]['content'][0]['text']
-    except (KeyError, IndexError):
-        return str(result)
+def call_chat_completion(prompt: str, response_format: str = None) -> str:
+    """Call Ollama generate endpoint as a replacement for chat completions."""
+    return call_ollama_generate(prompt, response_format)
+
+def call_openai_responses(prompt: str, response_format: str = None) -> str:
+    """Call Ollama generate endpoint as a replacement for responses."""
+    return call_ollama_generate(prompt, response_format)
 
 def _parse_metadata(meta):
     """Normalize JSONB / str metadata to dict."""
@@ -162,26 +142,37 @@ def diversify_vector_hits(rows, limit: int = 3):
 
 def get_embedding(text):
     """
-    Experimental embedding logic or fallback
+    Generate embedding using local Ollama instance
     """
-    # Note: If v1/responses doesn't do embeddings, we might still need a standard model
-    # but let's try to keep it simple for now. 
-    # For now, I'll keep the standard embedding call but use ada-002 which is safe.
-    from openai import OpenAI
-    client = OpenAI(api_key=OPENAI_API_KEY)
-    response = client.embeddings.create(input=[text], model=OPENAI_EMBEDDING_MODEL)
-    return response.data[0].embedding
+    payload = {"model": OLLAMA_EMBED_MODEL}
+    if "api/embed" in OLLAMA_EMBED_URL:
+        payload["input"] = text
+    else:
+        payload["prompt"] = text
+        
+    response = requests.post(OLLAMA_EMBED_URL, json=payload)
+    response.raise_for_status()
+    res_data = response.json()
+    if "embedding" in res_data:
+        return res_data["embedding"]
+    elif "embeddings" in res_data:
+        return res_data["embeddings"][0]
+    else:
+        raise ValueError(f"Unexpected embedding response format from Ollama: {res_data}")
 
 @app.post("/search")
 async def search(query_data: SearchQuery):
     user_query = query_data.query
 
     try:
-        # Step A: Intent Understanding
-        intent_prompt = INTENT_CLASSIFICATION_PROMPT.format(user_query=user_query)
-        intent_raw = call_openai_responses(intent_prompt)
-        intent = "SQL" if "SQL" in intent_raw.upper() else "VECTOR"
-        print(f"--- Detected Intent: {intent} ---")
+        # Step A: Intent Understanding (Fast Heuristic Classifier)
+        sql_keywords = [
+            "price", "cost", "stock", "quantity", "how many", "how much", 
+            "euro", "€", "aisle", "products in", "list of", "compare", "cheapest", "expensive"
+        ]
+        is_sql = any(k in user_query.lower() for k in sql_keywords)
+        intent = "SQL" if is_sql else "VECTOR"
+        print(f"--- Detected Intent (Heuristic): {intent} ---")
 
         retrieved_data = []
         conn = get_db_connection()
@@ -202,21 +193,40 @@ async def search(query_data: SearchQuery):
                 intent = "VECTOR"
 
         if intent == "VECTOR" or not retrieved_data:
-            query_embedding = get_embedding(user_query)
-            # Fetch more neighbors, then diversify so FAQ doesn't dominate every answer.
-            pool_limit = int(os.getenv("SEARCH_VECTOR_POOL", "40"))
-            final_limit = MAX_RETRIEVED_SOURCES
-            cur.execute(
-                """
-                SELECT content, metadata
-                FROM documents
-                ORDER BY embedding <=> %s::vector
-                LIMIT %s;
-                """,
-                (query_embedding, pool_limit),
-            )
-            rows = cur.fetchall()
-            retrieved_data = diversify_vector_hits(rows, limit=final_limit)
+            try:
+                query_embedding = get_embedding(user_query)
+                # Fetch more neighbors, then diversify so FAQ doesn't dominate every answer.
+                pool_limit = int(os.getenv("SEARCH_VECTOR_POOL", "40"))
+                final_limit = MAX_RETRIEVED_SOURCES
+                cur.execute(
+                    """
+                    SELECT content, metadata
+                    FROM documents
+                    ORDER BY embedding <=> %s::vector
+                    LIMIT %s;
+                    """,
+                    (query_embedding, pool_limit),
+                )
+                rows = cur.fetchall()
+                retrieved_data = diversify_vector_hits(rows, limit=final_limit)
+            except Exception as vector_err:
+                print(f"Vector search failed: {vector_err}. Falling back to keyword text search.")
+                words = [w for w in user_query.strip().split() if len(w) > 1]
+                if not words:
+                    words = [user_query]
+                conditions = " OR ".join(["content ILIKE %s" for _ in words])
+                params = [f"%{w}%" for w in words]
+                cur.execute(
+                    f"""
+                    SELECT content, metadata
+                    FROM documents
+                    WHERE {conditions}
+                    LIMIT %s;
+                    """,
+                    (*params, MAX_RETRIEVED_SOURCES)
+                )
+                rows = cur.fetchall()
+                retrieved_data = [{"content": r[0], "metadata": r[1]} for r in rows]
 
         cur.close()
         conn.close()
@@ -234,7 +244,7 @@ async def search(query_data: SearchQuery):
             retrieved_data=json.dumps(retrieved_data, indent=2, default=str),
             user_query=user_query,
         )
-        llm_response = call_openai_responses(final_prompt)
+        llm_response = call_openai_responses(final_prompt, response_format="json")
         
         # Parse JSON response from LLM
         answer = llm_response
@@ -249,8 +259,25 @@ async def search(query_data: SearchQuery):
                 cleaned_response = cleaned_response[3:-3].strip()
             
             parsed = json.loads(cleaned_response)
-            answer = parsed.get("answer", llm_response)
-            suggestions = parsed.get("suggestions", suggestions)
+            if isinstance(parsed, dict):
+                answer = parsed.get("answer") or parsed.get("message") or parsed.get("content") or parsed.get("response") or parsed.get("text") or llm_response
+                if isinstance(answer, dict):
+                    answer = answer.get("content") or answer.get("text") or answer.get("answer") or str(answer)
+                
+                # Resilient suggestions fallback (Instant context-aware fallback to save time)
+                raw_sug = parsed.get("suggestions")
+                if isinstance(raw_sug, list) and len(raw_sug) > 0:
+                    suggestions = [str(s) for s in raw_sug]
+                else:
+                    low_query = user_query.lower()
+                    if "fuel" in low_query or "price" in low_query or "diesel" in low_query or "unleaded" in low_query:
+                        suggestions = ["Do you accept Fuel Cards?", "What is Premium Fuel?", "How can I pay for fuel?"]
+                    elif "station" in low_query or "location" in low_query or "where" in low_query or "near" in low_query:
+                        suggestions = ["What are the opening hours?", "What services are available?", "How do I find a station?"]
+                    elif "oil" in low_query or "product" in low_query or "grease" in low_query:
+                        suggestions = ["What engine oil do I need?", "Where can I buy lubricants?", "What is AdBlue?"]
+                    else:
+                        suggestions = ["What products do you sell?", "Where is Maxol located?", "What is Maxol Loyalty?"]
         except Exception as json_err:
             print(f"JSON Parse Error: {json_err}. Using raw response.")
 

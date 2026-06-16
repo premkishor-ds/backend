@@ -51,14 +51,14 @@ def initialize_database():
         """)
 
         # 3. Create Documents table (Unstructured Data + Vectors)
-        # We use dimensions=1536 for OpenAI's 'text-embedding-3-small' or 'text-embedding-ada-002'
+        # We use dimensions=768 for 'nomic-embed-text'
         print("Creating 'documents' table with pgvector...")
         cur.execute("""
             CREATE TABLE IF NOT EXISTS documents (
                 id SERIAL PRIMARY KEY,
                 content TEXT NOT NULL,
                 metadata JSONB,
-                embedding vector(1536),
+                embedding vector(768),
                 created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
             );
         """)

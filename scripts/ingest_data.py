@@ -16,8 +16,8 @@ import os
 import sys
 
 import psycopg2
+import requests
 from dotenv import load_dotenv
-from openai import OpenAI
 
 # Load backend/.env (this file lives in backend/scripts/)
 load_dotenv(
@@ -25,8 +25,8 @@ load_dotenv(
     override=True,
 )
 
-client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
-OPENAI_EMBEDDING_MODEL = os.getenv("OPENAI_EMBEDDING_MODEL", "text-embedding-3-small")
+OLLAMA_EMBED_URL = os.getenv("OLLAMA_EMBED_URL", "http://192.168.10.148:11434/api/embeddings")
+OLLAMA_EMBED_MODEL = os.getenv("OLLAMA_EMBED_MODEL", "qwen2.5:14b")
 
 DB_HOST = os.getenv("DB_HOST", "192.168.1.29")
 DB_PORT = os.getenv("DB_PORT", "5433")
@@ -52,11 +52,21 @@ def get_embedding(text: str) -> list[float]:
     text = text.replace("\n", " ").strip()
     if not text:
         text = " "
-    response = client.embeddings.create(
-        input=[text],
-        model=OPENAI_EMBEDDING_MODEL,
-    )
-    return response.data[0].embedding
+    payload = {"model": OLLAMA_EMBED_MODEL}
+    if "api/embed" in OLLAMA_EMBED_URL:
+        payload["input"] = text
+    else:
+        payload["prompt"] = text
+        
+    response = requests.post(OLLAMA_EMBED_URL, json=payload)
+    response.raise_for_status()
+    res_data = response.json()
+    if "embedding" in res_data:
+        return res_data["embedding"]
+    elif "embeddings" in res_data:
+        return res_data["embeddings"][0]
+    else:
+        raise ValueError(f"Unexpected embedding response format from Ollama: {res_data}")
 
 
 def build_searchable_text(item: object, max_chars: int = MAX_EMBED_CHARS) -> str:
