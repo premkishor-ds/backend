@@ -258,7 +258,16 @@ async def search(query_data: SearchQuery):
             elif cleaned_response.startswith("```"):
                 cleaned_response = cleaned_response[3:-3].strip()
             
-            parsed = json.loads(cleaned_response)
+            parsed = None
+            try:
+                parsed = json.loads(cleaned_response)
+            except Exception:
+                try:
+                    import ast
+                    parsed = ast.literal_eval(cleaned_response)
+                except Exception as ast_err:
+                    print(f"AST Parse Error: {ast_err}")
+            
             if isinstance(parsed, dict):
                 answer = parsed.get("answer") or parsed.get("message") or parsed.get("content") or parsed.get("response") or parsed.get("text") or llm_response
                 if isinstance(answer, dict):
@@ -280,6 +289,13 @@ async def search(query_data: SearchQuery):
                         suggestions = ["What products do you sell?", "Where is Maxol located?", "What is Maxol Loyalty?"]
         except Exception as json_err:
             print(f"JSON Parse Error: {json_err}. Using raw response.")
+
+        # Convert HTML links to Markdown links for ReactMarkdown to render properly
+        if isinstance(answer, str):
+            import re
+            html_link_pattern = r'<a\s+(?:[^>]*?\s+)?href=["\']([^"\']+)["\'][^>]*>(.*?)</a>'
+            answer = re.sub(html_link_pattern, r'[\2](\1)', answer)
+
 
         return {
             "answer": answer,
