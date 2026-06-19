@@ -160,6 +160,105 @@ def get_embedding(text):
     else:
         raise ValueError(f"Unexpected embedding response format from Ollama: {res_data}")
 
+def format_retrieved_item(item: dict) -> str:
+    """Helper to cleanly format retrieved records based on their source file type."""
+    content = item.get("content", "")
+    meta = item.get("metadata") or {}
+    source_file = meta.get("source_file", "unknown")
+    record = meta.get("record", {})
+    
+    # Get the inner 'data' dictionary if it exists, otherwise use record
+    data = record.get("data", record)
+    if not isinstance(data, dict):
+        return content
+        
+    if source_file == "product.json":
+        name = data.get("c_productHeadings") or data.get("name") or "Untitled Product"
+        desc = ""
+        # Check description fields
+        desc_sum = data.get("c_product_description_md_summary")
+        if isinstance(desc_sum, list) and desc_sum:
+            desc = desc_sum[0].get("product_description_md_summary", "")
+        if not desc:
+            desc = data.get("c_productDescriptionMdSummaryArrayMap_...") or data.get("description") or ""
+        if not desc:
+            for k, v in data.items():
+                if ("description" in k.lower() or "desc" in k.lower()) and isinstance(v, str) and len(v) > 20:
+                    desc = v
+                    break
+        
+        category = ""
+        if isinstance(data.get("dm_directoryParents"), list) and data["dm_directoryParents"]:
+            category = " > ".join(str(p.get("name")) for p in data["dm_directoryParents"] if p.get("name"))
+        
+        price = data.get("price") or data.get("c_product_price")
+        price_str = f"€{price:.2f}" if price else "Pricing available on request"
+        
+        item_str = f"Product Name: {name}\n"
+        if category:
+            item_str += f"Category: {category}\n"
+        if price_str:
+            item_str += f"Price: {price_str}\n"
+        if desc:
+            item_str += f"Description: {desc}\n"
+        return item_str
+        
+    elif source_file == "faq.json":
+        q = data.get("question") or data.get("name") or ""
+        ans = ""
+        ans_v2 = data.get("answerV2")
+        if isinstance(ans_v2, dict) and "json" in ans_v2:
+            try:
+                def walk_lexical(x):
+                    parts = []
+                    if isinstance(x, dict):
+                        if x.get("type") == "text" and isinstance(x.get("text"), str):
+                            parts.append(x.get("text"))
+                        elif x.get("type") == "link" and isinstance(x.get("url"), str):
+                            link_text = "".join(walk_lexical(c) for c in x.get("children", []))
+                            parts.append(f"[{link_text}]({x.get('url')})")
+                        else:
+                            for v in x.values():
+                                parts.append(walk_lexical(v))
+                    elif isinstance(x, list):
+                        for v in x:
+                            parts.append(walk_lexical(v))
+                    return "".join(parts)
+                ans = walk_lexical(ans_v2["json"]).strip()
+            except Exception:
+                pass
+        if not ans:
+            ans = data.get("answer") or ""
+        return f"FAQ Question: {q}\nFAQ Answer: {ans}\n"
+        
+    elif source_file == "location.json":
+        name = data.get("name") or ""
+        address = ""
+        addr_obj = data.get("address")
+        if isinstance(addr_obj, dict):
+            line1 = addr_obj.get("line1") or ""
+            city = addr_obj.get("city") or ""
+            postal = addr_obj.get("postalCode") or ""
+            address = f"{line1}, {city} {postal}".strip(", ")
+        services = []
+        if isinstance(data.get("c_forecourtServices"), list):
+            services.extend(data["c_forecourtServices"])
+        if isinstance(data.get("c_inStoreServices"), list):
+            services.extend(data["c_inStoreServices"])
+        services_str = ", ".join(services) if services else "Fuel, Convenience Store"
+        
+        loc_str = f"Location Name: {name}\n"
+        if address:
+            loc_str += f"Address: {address}\n"
+        loc_str += f"Services Available: {services_str}\n"
+        return loc_str
+
+    name = data.get("name") or data.get("title") or ""
+    desc = data.get("description") or data.get("c_pagesAboutDescription") or ""
+    if not desc:
+        desc = content[:500]
+    return f"Source: {source_file}\nTitle/Name: {name}\nDetails: {desc}\n"
+
 @app.post("/search")
 async def search(query_data: SearchQuery):
     user_query = query_data.query
@@ -193,6 +292,9 @@ async def search(query_data: SearchQuery):
                 intent = "VECTOR"
 
         if intent == "VECTOR" or not retrieved_data:
+            if intent == "SQL":
+                print("--- SQL query returned no results. Falling back to VECTOR search ---")
+                intent = "VECTOR"
             try:
                 query_embedding = get_embedding(user_query)
                 # Fetch more neighbors, then diversify so FAQ doesn't dominate every answer.
@@ -239,12 +341,24 @@ async def search(query_data: SearchQuery):
                 "intent": intent,
             }
 
+        # Clean and format retrieved data into a non-JSON, plain text block to prevent LLM from getting confused about output structure
+        formatted_context = ""
+        if intent == "SQL":
+            for idx, row in enumerate(retrieved_data):
+                row_str = ", ".join(f"{k}: {v}" for k, v in row.items() if v is not None)
+                formatted_context += f"Product {idx+1}: {row_str}\n"
+        else:
+            for idx, item in enumerate(retrieved_data):
+                source_file = (item.get("metadata") or {}).get("source_file", "unknown")
+                formatted_context += f"Document {idx+1} (Source: {source_file}):\n{format_retrieved_item(item)}\n"
+
         # Step D: Final Response Generation
         final_prompt = FINAL_ANSWER_PROMPT.format(
-            retrieved_data=json.dumps(retrieved_data, indent=2, default=str),
+            retrieved_data=formatted_context.strip(),
             user_query=user_query,
         )
         llm_response = call_openai_responses(final_prompt, response_format="json")
+        print(f"DEBUG LLM RESPONSE: {llm_response}")
         
         # Parse JSON response from LLM
         answer = llm_response
@@ -253,6 +367,7 @@ async def search(query_data: SearchQuery):
         try:
             # Clean up the response if it contains markdown code blocks
             cleaned_response = llm_response.strip()
+            print(f"DEBUG CLEANED RESPONSE: {cleaned_response}")
             if cleaned_response.startswith("```json"):
                 cleaned_response = cleaned_response[7:-3].strip()
             elif cleaned_response.startswith("```"):
@@ -261,15 +376,20 @@ async def search(query_data: SearchQuery):
             parsed = None
             try:
                 parsed = json.loads(cleaned_response)
+                print(f"DEBUG PARSED JSON: {parsed}")
             except Exception:
                 try:
                     import ast
                     parsed = ast.literal_eval(cleaned_response)
+                    print(f"DEBUG PARSED AST: {parsed}")
                 except Exception as ast_err:
                     print(f"AST Parse Error: {ast_err}")
             
             if isinstance(parsed, dict):
-                answer = parsed.get("answer") or parsed.get("message") or parsed.get("content") or parsed.get("response") or parsed.get("text") or llm_response
+                print(f"DEBUG PARSED KEYS: {list(parsed.keys())}")
+                answer = parsed.get("answer") or parsed.get("message") or parsed.get("content") or parsed.get("response") or parsed.get("text")
+                if not answer or answer.strip() in ("{}", "{ }", ""):
+                    answer = "I could not find the answer in the available data. Please check in-store or consult a Maxol team member for details."
                 if isinstance(answer, dict):
                     answer = answer.get("content") or answer.get("text") or answer.get("answer") or str(answer)
                 
