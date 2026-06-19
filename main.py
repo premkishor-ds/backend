@@ -287,8 +287,21 @@ async def search(query_data: SearchQuery):
                         suggestions = ["What engine oil do I need?", "Where can I buy lubricants?", "What is AdBlue?"]
                     else:
                         suggestions = ["What products do you sell?", "Where is Maxol located?", "What is Maxol Loyalty?"]
+            else:
+                # Robust regex extraction if dictionary parsing failed
+                import re
+                extracted = ""
+                for key in ["answer", "message", "content", "response", "text"]:
+                    pattern = rf'["\']{key}["\']\s*:\s*(["\'])(.*?)\1'
+                    match = re.search(pattern, cleaned_response, re.DOTALL)
+                    if match:
+                        extracted = match.group(2).strip()
+                        break
+                if extracted:
+                    answer = extracted
         except Exception as json_err:
             print(f"JSON Parse Error: {json_err}. Using raw response.")
+
 
         # Convert HTML links to Markdown links for ReactMarkdown to render properly
         if isinstance(answer, str):
